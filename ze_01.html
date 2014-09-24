@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>正则表达式_01</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+var str="fdsdfsdfsdqq:'2275025'dfdsfe52id:'2221'1512111";
+//alert(str);
+var str2=str.match(/qq:\'\d+\'/);
+//alert(str2[1]);
+//str2=qq:'2275025' 但是str2是object类型的，没有split方法
+//然后我转成string类型，在用这个方法
+//var str3=str2.toString();
+str4=String.prototype.split.call(str2,"\'");
+alert(str4);
+
+alert(str4[1])//结果是d  不是2275025，不是想要的呢
+</script>
+</head>
+<body>
+
+
+</body>
+</html>

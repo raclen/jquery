@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>airplane</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<style>
+body{ margin:0px; padding:0px; background:#999;}
+#init{ width:300px; height:500px; margin:0 auto; position:relative; border:#F00 solid 15px; background:#000;}
+#init .title{ width:300px; height:40px; line-height:40px;position:absolute; left:0px;top:80px; color:#FFF; text-align:center; font-size:24px;}
+#init .box{ width:300px; position:absolute; top:140px; font-family:Arial, Helvetica, sans-serif;}
+#init .box a{ width:180px; text-align:center; height:30px; line-height:30px; display:block; margin:20px auto 0px auto; background:#09F; color:#FFF; text-decoration:none;}
+#init .box a:hover{ background:#FFF; color:#000; font-family:"Arial Black", Gadget, sans-serif;}
+/*英雄*/
+#init .hero{ width:60px; height:36px; position:absolute; left:120px; top:500px; background:url(image/warcraft.png) center no-repeat; z-index:3;}
+/*子弹*/
+#init .bullt{ width:6px; height:33px; background:url(image/bullet.png); position:absolute; z-index:3px;}
+/*敌机*/
+#init .hit{ width:23px; height:30px; background:url(image/enemy.png); position:absolute; z-index:3px;}
+/*分数统计*/
+#init .score{ width:220px; height:30px; line-height:30px; position:absolute; color:#FFF; font-weight:bold; font-size:16px; z-index:5px;}
+/*结果展示*/
+#init .result{ width:240px; height:200px; line-height:40px;padding:10px; position:absolute; top:120px; left:20px; background:#CCC;}
+/*结果显示主体*/
+#init .result .type{ width:160px; height:30px; line-height:30px; padding:2px 15px; text-align:center; color:red; font-weight:700;}
+#init .result p{ width:160px; height:40px; font-size:32px; line-height:40px; text-align:center; cursor:pointer; background:#333; color:#FFF; margin:20px auto 0 auto;}
+#init .result .nn,#init .result .tt{ padding:2px 15px; font-weight:bold; color:#006;}
+#init .result .tt{ display:block; text-align:center; font-size:24px;}
+</style>
+
+</head>
+
+<body>
+<div id="init"></div>
+</body>
+<script>
+var game={
+	init:$("#init"),
+	modetext:"",
+	timer:{
+		bg:null,
+		bullet:null,
+		enemy:null
+		},
+	mode:[
+		[7,2500,500,1000,4000,200],
+		[5,2000,300,3000,6000,300],
+		[3,1500,50,4000,8000,400]
+	],//参数配置
+	num:{
+		count:0,
+		heroX:0,
+		heroY:0,
+		score:0
+	},
+	startScreen:function(){
+			draw:function(){
+			var title=$("div");
+			title.addClass("title");
+			title.html("javascript Aircraft 1.0版本");
+			game.init.append(title);
+			var box=$("div");
+			box.addClass("box");
+			box.html("<a href='javascript:void(0)'>模式1</a><a href='javascript:void(0)'>模式2</a><a href='javascript:void(0)'>模式3</a> ");
+			game.init.append(box);
+			game.init.find(".box")
+			}
+		
+		}
+		
+	}
+
+</script>
+</html>

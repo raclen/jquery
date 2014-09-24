@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>removeAttr</title>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<button>点击切换</button>
+<input type="text" title="removeAttr"/>
+<div id="112"></div>
+<script>
+$().ready(function(){
+	var inputTitle=$("input").attr("title");
+	$("button").click(function(){
+		var input=$("button").next();
+		if(input.attr("title")==inputTitle){
+			input.removeAttr("title");
+			}else{
+				input.attr("title",inputTitle);
+				}
+				$("#112").html("input title is now"+input.attr("title"));
+				
+		});
+	
+	
+	
+	});
+</script>
+</body>
+</html>

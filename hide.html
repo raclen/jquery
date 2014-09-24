@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hide demo</title>
+  <style>
+  span { background:#def3ca; padding:3px; float:left; }
+   </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+  <button id="hidr">Hide</button>
+<button id="showr">Show</button>
+<div>
+ 
+  <span>Once</span> <span>upon</span> <span>a</span>
+  <span>time</span> <span>there</span> <span>were</span>
+  <span>three</span> <span>programmers...</span>
+ 
+</div>
+<script>
+$("#hidr").click(function () {
+  $("span").hide(2000);
+ 
+});
+$("#showr").click(function () {
+  $("span").show(2000);
+});
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+   function tryd(i)
+    {
+        var wen_zh = $("#rwen").val();
+        if (wen_zh == "0")
+        {
+            wen_zh = "";
+        }
+        $("#rwen").val(wen_zh + i);
+    }
+    $(function ()
+    {
+        var raclen = {
+            num_1: 0,
+            num_2: 0,
+            add: false,
+            jian: false,
+            cheng: false,
+            chu: false
+
+        }
+        $("#c_0").click(function ()
+        {
+            tryd(0);
+
+        })
+        $("#c_1").click(function ()
+        {
+            tryd(1);
+
+        })
+        $("#c_2").click(function ()
+        {
+            tryd(2);
+
+        })
+        $("#c_3").click(function ()
+        {
+            tryd(3);
+
+        })
+        $("#c_4").click(function ()
+        {
+            tryd(4);
+
+        })
+        $("#c_5").click(function ()
+        {
+            tryd(5);
+
+        })
+        $("#c_6").click(function ()
+        {
+            tryd(6);
+
+        })
+        $("#c_7").click(function ()
+        {
+            tryd(7);
+
+        })
+        $("#c_8").click(function ()
+        {
+            tryd(8);
+
+        })
+        $("#c_9").click(function ()
+        {
+            tryd(9);
+
+        })
+        $("#c_j").click(function ()
+        {
+            var num = $("#rwen").val();
+            raclen.num_1 = num;
+            raclen.add = true;
+            raclen.cheng = false;
+            raclen.chu = false;
+            raclen.jian = false;
+
+            $("#rwen").val("");
+
+        })
+
+        $("#c_jh").click(function ()
+        {
+
+            var num = $("#rwen").val();
+            raclen.num_1 = num;
+            raclen.jian = true;
+            raclen.add = false;
+            raclen.cheng = false;
+            raclen.chu = false;
+            $("#rwen").val("");
+
+        })
+        $("#c_c").click(function ()
+        {
+            var num = $("#rwen").val();
+            raclen.num_1 = num;
+            raclen.cheng = true;
+            raclen.jian = false;
+            raclen.add = false;
+
+            raclen.chu = false;
+            $("#rwen").val("");
+
+        })
+        $("#c_cc").click(function ()
+        {
+            var num = $("#rwen").val();
+            raclen.num_1 = num;
+            raclen.chu = true;
+            raclen.jian = false;
+            raclen.add = false;
+            raclen.cheng = false;
+
+            $("#rwen").val("");
+
+        })
+        $("#c_d").click(function ()
+        {
+            var num = $("#rwen").val();
+            if (raclen.add)
+            {
+                var titol = parseFloat(raclen.num_1) + parseFloat(num);
+                $("#rwen").val(titol);
+            }
+            if (raclen.jian)
+            {
+                var titol = parseFloat(raclen.num_1) - parseFloat(num);
+                $("#rwen").val(titol);
+            }
+            if (raclen.cheng)
+            {
+                var titol = parseFloat(raclen.num_1) * parseFloat(num);
+                $("#rwen").val(titol);
+            }
+            if (raclen.chu)
+            {
+                var titol = parseFloat(raclen.num_1) / parseFloat(num);
+                $("#rwen").val(titol);
+            }
+
+        })
+        $("#c_clear").click(function ()
+        {
+            window.location.reload();
+        })
+
+    })
+</script>
+<style>
+.raclen{ border:#60C solid 1px; width:110px; margin:0 auto;}
+</style>
+<title>计算器</title>
+</head>
+<body>
+<div class="raclen">
+<input type="text" readonly style="width:104px; text-align:right;" id="rwen"/><br/>
+<input type="button" value="1" id="c_1"/><input type="button" value="2" id="c_2"/><input type="button" value="3" id="c_3"/><input type="button" value="+" id="c_j"/><br>
+<input type="button" value="4" id="c_4"/><input type="button" value="5" id="c_5"/><input type="button" value="6" id="c_6"/><input type="button" value="-" style=" margin-left:2px; width:24px;" id="c_jh"><br>
+<input type="button" value="7" id="c_7"/><input type="button" value="8" id="c_8"/><input type="button" value="9" id="c_9"/><input style=" margin-left:2px; width:24px; " type="button" value="*" id="c_c"/><br>
+<input type="button" value="0" id="c_0"/><input type="button" value="=" id="c_d" /><input type="button" value="C" id="c_clear" /><input type="button" value="/" style="margin-left:2px; width:24px;" id="c_cc"/><br>
+</div>
+</body>
+</html>

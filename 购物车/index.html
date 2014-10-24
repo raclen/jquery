@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>购物车</title>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+<script>
+$(function(){
+	var dd={
+		flag:true,
+		}
+		//全选事件
+	$("#checkall").click(function(){
+		if(dd.flag){
+		$(".java input[type=checkbox]").each(function(){
+			var di=$(this);
+			if($(di).attr("checked")!=true){
+			$(di).attr("checked",true);
+				}
+			
+			})
+			totil();
+			dd.flag=false;
+		}else{
+		$(".java input[type=checkbox]").each(function(){
+			var di=$(this);
+			
+			if($(di).attr("checked")=="checked"){
+			$(di).attr("checked",false);
+				}
+			
+			})
+			totil();
+		dd.flag=true;
+		}
+		})
+	//商品选中事件
+	$(".eee").click(function(){
+		totil();
+		
+		})
+	
+	})
+	//结算总价
+	function totil(){
+		var str=0;
+		$(".java input:checkbox:checked").each(function(){
+			var rc=$(this).parent().parent().find(".dania");
+			str+=parseInt(rc.text());
+			
+			})
+		$("#totil").html(str+".00元");
+		
+		}
+		//减号按纽
+	function reduce(ddd){
+		//alert($(ddd).val());
+		var this2=$(ddd);
+		var val=$(ddd).parent().find(".ttt").val();
+		if(val<1){
+			alert("数量不能小于0");
+			return;}
+		var val2=parseInt(val)-1;
+		$(ddd).parent().find(".ttt").val(val2);
+		var dj=$(ddd).parent().parent().find(".dania").attr("dj");
+		butoi(this2,val2,dj);
+		}
+		//加号按钮
+		function add(ddd){
+		//alert($(ddd).val());
+		
+		var this2=$(ddd);
+		var val=$(ddd).parent().find(".ttt").val();
+		//alert(val);
+		
+		var val2=parseInt(val)+1;
+		$(ddd).parent().find(".ttt").val(val2);
+		
+		var dj=$(ddd).parent().parent().find(".dania").attr("dj");
+		
+		butoi(this2,val2,dj);
+		}
+		//商品总价
+	function butoi(t,val,danjia){
+		var sum=val*danjia;
+		t.parent().parent().find(".dania").html(sum+".00元");
+		totil();
+		}
+</script>
+</head>
+<style>
+*{ margin:0px; padding:0px;}
+ul li { list-style:none; float:left; margin-right:20px;}
+.java{ margin-left:500px; margin-top:20px; border:#9C0 solid 1px; float:left;}
+.javas{margin-left:500px; margin-top:20px; border:#9C0 solid 1px;float:left;}
+.dania{ color:#F00;}
+</style>
+<body>
+<div class="shop">
+<div class="java">
+<ul>
+<li><input type="checkbox" class="eee"></li>
+<li><input type="button" value="-" onClick="reduce(this)"><input type="text" style="width:30px;" value="0" class="ttt"><input type="button" value="+" onClick="add(this)"></li>
+<li class="dania" dj="9">0.00元</li>
+</ul>
+
+</div>
+<div style="clear:both"></div>
+<div class="java">
+<ul>
+<li><input type="checkbox" class="eee"></li>
+<li><input type="button" value="-" onClick="reduce(this)"><input type="text" style="width:30px;" value="0" class="ttt"><input type="button" value="+" onClick="add(this)"></li>
+<li class="dania" dj="10">0.00元</li>
+</ul>
+</div>
+</div>
+<div style="clear:both"></div>
+<div class="javas"><input type="checkbox" id="checkall">全选&nbsp;&nbsp;&nbsp;&nbsp;总价<span id="totil">0.00元</span></div>
+</body>
+</html>

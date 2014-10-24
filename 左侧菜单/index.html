@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>3c-menu</title>
+<style>
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+a:link,a:visited{color:#666;font-size:12px;text-decoration:none;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+
+/* mallCategory */
+.itemtit1,.itemtit2,.itemtit3,.itemtit4,.itemtit5,.itemtit6,.itemtit7,.itemtit8,.itemtit9,.itemtit10,.itemtit11{background:url(../img/sprite-700.png) no-repeat scroll transparent;}
+.itemtit1{background-position:0 0;}
+.itemtit2{background-position:0 -45px;}
+.itemtit3{background-position:0 -95px;}
+.itemtit4{background-position:0 -144px;}
+.itemtit5{background-position:0 -192px;}
+.itemtit6{background-position:0 -241px;}
+.itemtit7{background-position:0 -291px;}
+.itemtit8{background-position:0 -339px;}
+.itemtit9{background-position:0 -389px;}
+.itemtit10{background-position:0 -438px;}
+.itemtit11{background-position:0 -486px;}
+.mallCategory{position:relative;width:185px;border:3px solid #798fcb;background:#fff;}
+.mallCategory .border{width:181px;height:73px;border:2px solid #476BA3;position:absolute;top:370px;z-index:14;display:none;}
+.mallCategory .border .mask-top{width:181px;height:39px;border-right:solid 2px #EBF0FE;}
+.mallCategory .border .mask-bottom{width:181px;height:34px;border-right:solid 2px #FFF;}
+.catList h2{height:29px;overflow:hidden;background-color:#a5b3da;}
+.catList h2 a{display:block;padding:3px 0 0px 10px;font-size:12px;}
+.catList h2 a:link,.catList h2 a:visited{color:#FFF;text-decoration:none;}
+.catList h2 a:hover,.catList h2 a:active{color:#FFF;text-decoration:none;}
+.catList h3{padding-left:42px;height:40px;background-color:#ebf0fe;}
+.catList h3 span{float:right;display:block;margin:16px 10px 0 0;width:5px;height:7px;background:url(../img/sprite-700.png) no-repeat scroll 0 -621px transparent;}
+.catList h3 a{overflow:hidden;height:40px;font-size:12px;line-height:40px;font-weight:bold;}
+.catList li{overflow:hidden;padding-left:1px;height:73px;border-color:#FFF #FFF #e5e5e5 #FFF;border-style:solid;border-width:1px 0 1px 0;border-bottom:1px solid #c3cde7;padding-bottom:3px;}
+.catList .itemCol{overflow:hidden;padding:7px 0 0 20px;width:164px;height:20px;_zoom:1;}
+.catList p a{margin-right:3px;#margin-right:0;color:#666;}
+.catList p a:hover{color:#666;}
+.cat-subcategory{position:absolute;top:29px;left:183px;z-index:10;width:457px;border:2px solid #476ba3;background:#fff;display:none;}
+.shadow{position:relative;}
+.shadow a,.shadow a:hover{color:#666;}
+.shadow-left{float:left;display:inline;width:232px;min-height:100px;_height:100px;}
+.shadow-left li{float:left;margin-top:12px;padding-bottom:10px;width:220px;background:url(../img/listbg.gif) left bottom no-repeat;line-height:24px;}
+.shadow-left li a{display:inline-block;margin-right:19px;white-space:nowrap;}
+.shadow-right{float:right;display:inline;padding:12px 0 0 18px;width:164px;}
+.shadow-right dt{background:0;height:30px;}
+.shadow-right dt b{font-size:12px;font-weight:bold;color:#1D1D1E;}
+.shadow-right a{float:left;margin:4px 9px 4px -9px;padding:0 8px;height:15px;border-left:1px solid #eee;white-space:nowrap;line-height:15px;}
+.shadow-right dd{overflow:hidden;width:164px;}
+.entity-main{overflow:hidden;padding:0 0 0 39px;height:100%;background:url(../img/listbg2.gif) right top repeat-y;}
+
+
+</style>
+
+</head>
+<body>
+
+<div style="width:720px;margin:0px auto;">
+
+	<div class="mallCategory">
+	
+		<div class="catList">
+			<h2><a href="#">家用电器</a></h2>
+			<ul class="clearfix">
+				<li class="J_MenuItem">
+					<h3 class="itemtit1"><span></span><a href="#">大家电 </a></h3>
+					<p class="itemCol"><a href="#">空调</a> <a href="#">LED电视 </a> <a href="#">冰箱 </a></p>
+				</li>
+				<li class="J_MenuItem">
+					<h3 class="itemtit2"><span> </span> <a href="#">生活电器/ </a> <a href="#">个人护理 </a></h3>
+					<p class="itemCol"> <a href="#">空调扇 </a> <a href="#">挂烫机 </a> <a href="#">剃须刀 </a></p>
+				</li>
+				<li class="J_MenuItem">
+					<h3 class="itemtit3"><span> </span><a href="#">厨房电器 </a></h3>
+					<p class="itemCol"><a href="#">豆浆机</a> <a href="#">电饭煲</a> <a href="#">微波炉 </a></p>
+				</li>
+				<li class="J_MenuItem">
+					<h3 class="itemtit4"><span></span><a href="#">影音电器 </a></h3>
+					<p class="itemCol"><a href="#">耳机 </a> <a href="#">硬盘播放器 </a> <a href="#">组合音响 </a></p>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="border">
+			<ul>
+				<li class="mask-top"></li>
+				<li class="mask-bottom"></li>
+			</ul>
+		</div>
+		
+		<div class="cat-subcategory">
+			<div class="shadow">
+				<div class="entity-main">
+					<ul class="shadow-left">
+						<li><a href="#">LED电视</a> <a href="#">LCD电视</a> <a href="#">3D电视</a> <a href="#">等离子电视</a> <a href="#">家庭影院</a> <a href="#">配件</a></li>
+						<li><a href="#">壁挂空调</a> <a href="#">柜式空调</a> <a href="#">移动空调</a> <a href="#">冷暖空调</a></li>
+						<li><a href="#">对开门</a> <a href="#">双门冰箱</a> <a href="#">三门冰箱</a> <a href="#">迷你冰箱</a> <a href="#">酒柜</a> <a href="#">冷柜</a></li>
+						<li><a href="#">烟灶套装</a> <a href="#">油烟机</a> <a href="#">燃气灶</a> <a href="#">消毒柜</a> <a href="#">欧式</a> <a href="#">中式</a> <a href="#">侧吸式</a></li>
+						<li><a href="#">滚筒洗衣机</a> <a href="#">双缸洗衣机</a> <a href="#">迷你洗衣机</a> <a href="#">单脱水机</a></li>
+					</ul>
+					<dl class="shadow-right">
+						<dt><b>大家电品牌 </b></dt>
+						<dd><a href="#">海尔</a> <a href="#">TCL</a> <a href="#">海信</a> <a href="#">创维</a> <a href="#">格力</a> <a href="#">方太</a> <a href="#">西门子</a> <a href="#">美的</a> <a href="#">华帝</a> <a href="#">老板</a> <a href="#">奥克斯</a> <a href="#">容声</a> <a href="#">夏普</a> <a href="#">索尼</a> <a href="#">清华同方</a> <a href="#">pangoo</a> <a href="#">康佳</a> <a href="#">长虹</a> <a href="#">帅康</a> <a href="#">LG</a> <a href="#">康宝</a> <a href="#">德意</a> <a href="#">乐华</a> <a href="#">科龙</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="entity-main">
+					<ul class="shadow-left">
+						<li><a href="#">风扇</a> <a href="#">空调扇</a> <a href="#">吊扇</a> <a href="#">落地扇</a> <a href="#">转页扇</a> <a href="#">台扇</a></li>
+						<li><a href="#">挂烫机</a> <a href="#">电熨斗</a> <a href="#">蒸汽刷/干汽刷</a> <a href="#">干鞋器</a> <a href="#">干衣机</a></li>
+						<li><a href="#">吸尘器</a> <a href="#">智能扫地机</a> <a href="#">蒸汽拖把</a> <a href="#">超声波清洁机</a> <a href="#">迷你吸尘器</a></li>
+						<li><a href="#">空气净化器</a> <a href="#">加湿器</a> <a href="#">抽湿器</a> <a href="#">活氧/解毒机</a></li>
+						<li><a href="#">对讲机</a> <a href="#">电话机</a> <a href="#">子母机</a></li>
+						<li><a href="#">剃须刀</a> <a href="#">足浴器</a> <a href="#">电吹风</a> <a href="#">按摩器材</a> <a href="#">电动牙刷</a> <a  href="#">     卷/直发器</a> <a href="#">足疗机</a> <a href="#">美容仪</a> <a href="#">冲牙器</a> <a href="#">鼻毛修剪器</a> <a href="#">剃/脱毛器</a> <a href="#">理发器</a> <a href="#">计步器</a> <a href="#">体重秤</a> <a href="#">医疗器械</a> <a href="#">血压计</a> <a href="#">血糖仪</a> <a href="#">温度计</a></li>
+					</ul>
+					<dl class="shadow-right">
+						<dt><b>生活电器/个人护理品牌</b></dt>
+						<dd><a href="#">格力</a> <a href="#">艾美特</a> <a href="#">小狗</a> <a href="#">贝尔莱德</a> <a href="#">飞利浦</a> <a href="#">夏普</a> <a href="#">美的</a> <a href="#">益节</a> <a href="#">伊莱克斯</a> <a href="#">亚都</a> <a href="#">松下</a> <a href="#">KV8</a> <a href="#">天骏</a> <a href="#">科沃斯</a> <a href="#">泰昌</a> <a href="#">松下</a> <a href="#">飞科</a> <a href="#">博朗</a> <a href="#">沙宣</a> <a href="#">朗欣特</a> <a href="#">露华浓</a> <a href="#">奔腾</a> <a href="#">罗氏</a> <a href="#">欧姆龙</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="entity-main">
+					<ul class="shadow-left">
+						<li><a href="#">豆浆机</a> <a href="#">净水器</a> <a href="#">电热水壶</a> <a href="#">榨汁机</a> <a href="#">酸奶机</a> <a href="#">饮水机</a> <a href="#">咖啡机</a> <a href="#">豆芽机</a> <a href="#">果蔬清洁</a></li>
+						<li><a href="#">面包机</a> <a href="#">电烤箱</a> <a href="#">三明治机</a> <a href="#">电动打蛋器</a> <a href="#">电炸锅</a> <a href="#">炙烤炉</a></li>
+						<li><a href="#">电饭煲</a> <a href="#">电压力锅</a> <a href="#">电磁炉</a> <a href="#">微波炉</a> <a href="#">电饼铛</a> <a href="#">料理机</a> <a href="#">电炖锅</a> <a href="#">煮蛋器</a> <a href="#">电蒸锅</a></li>
+						<li><a href="#">冰淇淋机</a> <a href="#">刨冰/碎冰/冰沙机</a> <a href="#">电热杯</a> <a href="#">爆米花机</a></li>
+					</ul>
+					<dl class="shadow-right">
+						<dt><b>厨房电器品牌</b></dt>
+						<dd><a href="#">九阳</a> <a href="#">美的</a> <a href="#">苏泊尔</a> <a href="#">东菱</a> <a href="#">福库</a> <a href="#">奔腾</a> <a href="#">格兰仕</a> <a href="#">小熊</a> <a href="#">飞利浦</a> <a href="#">德龙</a> <a title="ACA" href="#">     ACA</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="entity-main">
+					<ul class="shadow-left">
+						<li><a href="#">组合音箱</a> <a href="#">HiFi音箱</a> <a href="#">低音炮</a> <a href="#">功放</a> <a href="#">扩音器</a> <a href="#">麦克风</a></li>
+						<li><a href="#">收音机</a> <a href="#">收录机</a> <a href="#">复读机</a></li>
+						<li><a href="#">耳机耳麦</a> <a href="#">硬盘播放器</a> <a href="#">移动/便携DVD</a> <a href="#">影碟机</a> <a href="#">扩音器</a> <a href="#">麦克风</a></li>
+						<li><a href="#">线材</a> <a href="#">插座</a></li>
+					</ul>
+					<dl class="shadow-right">
+						<dt><b>影音电器品牌</b></dt>
+						<dd><a href="#">飞利浦</a> <a href="#">森海塞尔</a> <a href="#">铁三角</a> <a href="#">雅马哈</a> <a href="#">JBL</a> <a href="#">开博尔</a> <a href="#">秋叶原</a> <a href="#">美如画</a> <a href="#">JVC</a> <a href="#">索尼</a> <a href="#">硕美科</a> <a href="#">山水</a> <a href="#">忆捷</a> <a href="#">天敏</a> <a href="#">天龙</a> <a href="#">德生</a> <a href="#">雷柏</a> <a href="#">爱科技</a> <a href="#">魔声</a> <a href="#">雷蛇</a> <a href="#">迪优美特</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+</div>
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" >
+
+$(document).ready(function(){
+	$( ".J_MenuItem" ).each( function( index ){
+		
+		$( this ).mouseover( function(){
+			//alert(index);
+				var catTop,
+				borderTop = $( this ).offset().top - 3,//获取左侧菜单的高度
+				viewHeight = $( window ).height(),//浏览器的高度
+				
+				scrollTop = $( document ).scrollTop(),//获取文档顶部滚动条的高度
+				relaxHeight = viewHeight - ( borderTop - scrollTop );//relaxHeight就是准备显示div的高度
+				//alert(scrollTop);
+			
+			$( ".border" ).css( "top", borderTop ).show();
+			$( ".cat-subcategory" ).show();
+			$( ".shadow div" ).hide().eq( index ).show();
+			
+			var catHeight = $( ".cat-subcategory" ).height();
+			if( catHeight <= relaxHeight ){
+				catTop = borderTop;
+			}else if( catHeight > relaxHeight && catHeight < viewHeight ){
+				catTop = scrollTop + viewHeight - catHeight - 10;
+			}else{
+				catTop = scrollTop + 5;
+			}
+			$( ".cat-subcategory" ).css( "top", catTop );
+			
+			$( "span" ).show();
+			$( this ).find( "span" ).hide();
+		});
+
+		$( ".mallCategory" ).mouseleave( function(){
+			$( ".cat-subcategory" ).hide();
+			$( ".border" ).hide();
+			$( "span" ).show();
+		});
+
+	});
+});
+
+
+</script>
+
+
+</body>
+</html>

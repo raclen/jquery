@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="js/angular.js"></script>
+<script>
+function HelloController($scope) {
+    $scope.person = {
+    name: "World"
+}
+
+$scope.sayHelloWorld = function() {
+    alert($scope.person.name);
+}
+}
+</script>
+</head>
+<body ng-app>
+<div ng-controller="HelloController">
+    <input type="text" ng-model="person.name" />
+    <button ng-click="sayHelloWorld()" >点击</button>
+</div>
+</body>
+</html>

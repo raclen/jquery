@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-size: .75rem;
+}
+.wlt-dialog{
+    background-color: #F6F6F6;
+    width: 240px;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: left;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.wlt-dialog .title{
+    font-size: 1.3rem;
+    text-align: center;
+    border-bottom: solid 1px #ededed;
+    height: 40px;
+    line-height: 40px;
+    font-family: '新宋体';
+    font-weight: 600;
+}
+.wlt-dialog .content{
+    font-size: .75rem;
+    text-align: center;
+    padding: 8px 0;
+}
+.wlt-dialog .content p{
+    padding: 2px 0;
+}
+.wlt-dialog .footer .btn{
+
+}

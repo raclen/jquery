@@ -2,33 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bc60a0-ab9d-4ca4-8d60-752dcbe9f9b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/QRcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/Touch_Gesture_Reference.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/basic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/multiTouch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/rich.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/scroll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/images/zTouch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasciptcode/ICanHaz/ICanHaz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkNum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasciptcode/ICanHaz/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/multiTouch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/rich.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/scroll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/example/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/zTouch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/zTouch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTouch-master/zepto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/Gruntfile.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/LICENSE-DOT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/requirejs/js/RequireJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/advancedsnippet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/lib/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/browsersample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check_Num.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/compileBench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/customdoT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/templates/dashboard.jst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/data-part.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templating/doT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templating/doU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/bin/dot-packer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/eventemitter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/expressjs-wrapper/for-2.x/express-juicer-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/expressjs-wrapper/for-3.x/express-juicer-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/expressjs-wrapper/for-2.x/express-juicer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/expressjs-wrapper/for-3.x/express-juicer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/facilities.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake-entry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/genspeed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/lib/render/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/jslitmus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/juicer-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/nodejs/juicer-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/juicer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/juicer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/juicer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/bin/juicer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/knockout-3.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/templates/login.jst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/multidef.def.jst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/one.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/promo-client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/promo-client.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/qunit-1.5.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/qunit-1.5.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/router.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/routie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/saber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/snippet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/load-test/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/template-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/template-parser.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templatesBench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/test.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_001.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_this.shtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/test/testdoT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/load-test/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/tpl/tpl-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/requirejs/js/tpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/tpltest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/two.dot.jst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/util.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasciptcode/validator/validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/dist/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/dist/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/vue_test01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widget-cache.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widget.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/withdoT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/yui-wrapper/yui-juicer-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/yui-wrapper/yui-juicer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/yui-wrapper/yui-juicer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正则表达式/ze_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正则表达式/ze_03.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daAir.html" afterPath="$PROJECT_DIR$/daAir.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.one.js" afterPath="$PROJECT_DIR$/js/jquery.one.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/removeAttr.html" afterPath="$PROJECT_DIR$/removeAttr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/val.html" afterPath="$PROJECT_DIR$/val.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTouch-master/zTouch.js" afterPath="$PROJECT_DIR$/zTouch-master/zTouch.js" />
+      <change type="MOVED" beforePath="D:\git\jquery\ze_01.html" afterPath="$PROJECT_DIR$/正则表达式/ze_01.html" />
     </list>
     <ignored path="jquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,41 +187,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="checkNum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkNum.html">
+      <file leaf-file-name="vue_test01.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vuejs/vue_test01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="240" max-vertical-offset="360">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7975986" vertical-offset="0" max-vertical-offset="583">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addClass.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addClass.html">
+      <file leaf-file-name="vue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vuejs/dist/vue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zTouch.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zTouch-master/zTouch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6977929" vertical-offset="1359" max-vertical-offset="2835">
-              <caret line="118" column="20" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zTouch-master/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="8847" max-vertical-offset="121860">
+              <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -101,10 +216,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -157,7 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zTouch-master" />
+              <option name="myItemId" value="vuejs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,43 +286,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zTouch-master" />
+              <option name="myItemId" value="vuejs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javasciptcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javasciptcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ICanHaz" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,20 +309,34 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\jquery\vuejs" />
+      <recent name="D:\git\jquery\tpl_test" />
+      <recent name="D:\git\jquery\Micro" />
       <recent name="D:\git\jquery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\jquery\正则表达式" />
       <recent name="D:\git\jquery\javasciptcode\io7_checkbix" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+  <component name="RunManager" selected="JavaScript Debug.vue_test01.html">
+    <configuration default="false" name="vue_test01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/vuejs/vue_test01.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -247,10 +344,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -273,7 +366,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.vue_test01.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.vue_test01.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -289,22 +389,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -333,364 +433,361 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/font.html">
+    <entry file="file://$PROJECT_DIR$/saber-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="720">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addClass.html">
+    <entry file="file://$PROJECT_DIR$/doT-master/bin/dot-packer">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airplane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doT-master/examples/browsersample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="900">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juicer-master/test/yui-wrapper/yui-juicer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1005">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juicer-master/test/unit/juicer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doT-master/test/testdoT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juicer-master/bin/juicer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1983" max-vertical-offset="2730">
+          <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juicer-master/test/juicer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1185">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/ze_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/ze_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53097343" vertical-offset="0" max-vertical-offset="565">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/home/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28645834" vertical-offset="0" max-vertical-offset="92460">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/ze_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="780">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="780">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ze_01.html">
+    <entry file="file://D:/requireJs/r.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.2777777" vertical-offset="4590" max-vertical-offset="368040">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vsea.html">
+    <entry file="file://$PROJECT_DIR$/bootstrap/home/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="16725">
+          <caret line="191" column="3" selection-start-line="191" selection-start-column="3" selection-end-line="191" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/val.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="495">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="495">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font.html">
+    <entry file="file://$PROJECT_DIR$/removeAttr.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="525">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.html">
+    <entry file="file://$PROJECT_DIR$/../jsgame/js/move.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="630">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/桌面/444.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2895">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airplane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="780">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ze_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vsea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/val.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airplane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="780">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="630">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vsea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ze_01.html">
+    <entry file="file://$PROJECT_DIR$/../jsgame/js/disclick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/val.html">
+    <entry file="file://$PROJECT_DIR$/../jsgame/js/game_01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="495">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.4040404" vertical-offset="405" max-vertical-offset="1275">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/html5slideshow_jb51net/html5slideshow_jb51net/js/webwidget_slideshow_html5_simple.js">
+    <entry file="file://$PROJECT_DIR$/hide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9292035" vertical-offset="9945" max-vertical-offset="14085">
-          <caret line="698" column="59" selection-start-line="698" selection-start-column="59" selection-end-line="698" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font.html">
+    <entry file="file://$PROJECT_DIR$/daAir.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3690" max-vertical-offset="5835">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/ios-7-style-animated-switch-control-with-javascript-and-css3/ios-7-style-animated-switch-control-with-javascript-and-css3/index.html">
+    <entry file="file://$PROJECT_DIR$/test_this.shtml.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.981133" vertical-offset="1170" max-vertical-offset="1830">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/桌面/444.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41284403" vertical-offset="0" max-vertical-offset="570">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/html5slideshow_jb51net/html5slideshow_jb51net/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="975">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/Dialog/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07575758" vertical-offset="0" max-vertical-offset="594">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/Dialog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="495">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/Dialog/dialog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="675">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/Dialog/dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pay/points_o.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="105" max-vertical-offset="2070">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/ICanHaz/ICanHaz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8370">
-          <caret line="552" column="0" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/chrome_extensions_and_apps_programming-master/my_clock/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="450">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/chrome_extensions_and_apps_programming-master/my_clock/js/my_clock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/软件/abp/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46312177" vertical-offset="0" max-vertical-offset="1245">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/chrome_extensions_and_apps_programming-master/chrome_extensions_and_apps_programming-master/my_clock/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46312177" vertical-offset="0" max-vertical-offset="583">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.025728988" vertical-offset="270" max-vertical-offset="900">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/ICanHaz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.166666" vertical-offset="50" max-vertical-offset="885">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/requireJs/testRequire/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="930">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasciptcode/io7_checkbix/io7_checkbix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42367068" vertical-offset="788" max-vertical-offset="1395">
-          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/requireJs/testRequireJS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2572899" vertical-offset="0" max-vertical-offset="583">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkNum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="360">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTouch-master/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTouch-master/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25520834" vertical-offset="9153" max-vertical-offset="23565">
-          <caret line="620" column="4" selection-start-line="620" selection-start-column="4" selection-end-line="620" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTouch-master/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5862069" vertical-offset="874" max-vertical-offset="1425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="645">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zTouch-master/zTouch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6977929" vertical-offset="1359" max-vertical-offset="2835">
-          <caret line="118" column="20" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1623" max-vertical-offset="2910">
+          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.7.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wamp/www/requireJs/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="780">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/图片滑动/图片滑动/js/yxMobileSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36531988" vertical-offset="833" max-vertical-offset="3300">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/图片滑动/图片滑动/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16635859" vertical-offset="30" max-vertical-offset="585">
+          <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Swiper-master_jiawin.com/Swiper-master/demos/01-default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1290">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Swipe2.0/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1275">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6177924" vertical-offset="0" max-vertical-offset="607">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javasciptcode/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="2145">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Swiper-master_jiawin.com/Swiper-master/dist/idangerous.swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0" vertical-offset="7956" max-vertical-offset="8640">
+          <caret line="570" column="1" selection-start-line="570" selection-start-column="1" selection-end-line="570" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Swipe2.0/js/swiper2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6021" max-vertical-offset="8655">
+          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_Num.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="570">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="555">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/micro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/micro2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/micro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="242" max-vertical-offset="825">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/promo-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl_test/requirejs/js/RequireJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/promo-client.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="615">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl_test/requirejs/js/tpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl_test/tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Micro/micro.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl_test/tpl/tpl-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="164" selection-start-line="0" selection-start-column="164" selection-end-line="0" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/vue-master/vue-master/test/unit/runner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl_test/tpltest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vuejs/dist/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8847" max-vertical-offset="121860">
+          <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vuejs/vue_test01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7975986" vertical-offset="0" max-vertical-offset="583">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
           <folding />
         </state>
       </provider>

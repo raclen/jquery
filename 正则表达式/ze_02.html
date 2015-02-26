@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var r = '妹纸们的联系方式（绝密！）'+
+            '白富美QQ:52012345'+
+            '白白美qq:520696969'+
+            '捣乱的白富美QQ:520'+
+            '捣乱的白富美QQ:1234567890123456'+
+            '富白美QQ:abc1234 '+
+            '美白富PP:51696969';
+    var reg =/qq:\d{5,12}(?=\D)/ig;
+    var str =r.match(reg);
+    console.log(str)
+</script>
+</body>
+</html>

@@ -10,46 +10,10 @@
 <input type="button" value="buttn" id="btn">
 <script>
 
-
-    var test = function (x) {
-        if (x > 5) {
-            return false;
-        }
-        return true;
-    }
-    var Otext = document.getElementById('txt');
-    Otext.addEventListener('blur', function () {
-        test(this.value);
-        alert('common in blur');
-    });
-    var Obtn = document.getElementById('btn');
-    Obtn. ('click', function () {
-        //Otext.onblur=null;
-        if(!test(Otext.value)){
-            return false;
-        }
-        alert('common in click');
-    })
+var p = '15655552082';
+var new_P = p.split('');//split(3,4,'****');
+    console.log(new_P);
 </script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script>
-    var test = function (x) {
-        if (x > 5) {
-            return false;
-        }
-        return true;
-    }
-    $('#txt').on('blur',function(){
-        test($(this).val());
-        alert('common in blur');
-    })
-    $('#btn').on('click',function(){
-        if(!test($('#txt').val())){
-            return false;
-        }
-        alert('common in click');
-    })
 
-</script>
 </body>
 </html>

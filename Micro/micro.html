@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>micro_test</title>
+</head>
+<style>
+    li{
+        border-bottom: 1px dotted #CCCCCC;
+    }
+    li.odd{
+        background: #FFFFEE;
+    }
+    li.even{
+        background: #FFFFCC;
+    }
+
+</style>
+<body>
+------------------------------------------------------------
+<ul id="results">
+    output results here.
+</ul>
+
+
+</body>
+<script src="micro.js"></script>
+<script src="micro2.html"></script>
+<script>
+    // Demo data.
+
+        var dataObject = {
+            members:[
+                {id:1, name:"hoge", text:"aaaaaaaaaaaaaa"},
+                {id:9, name:"fuga", text:"bbbbbbbbbbbbbb"},
+                {id:15, name:"hoge", text:"cccccccccccccc"},
+                {id:22, name:"fuga", text:"dddddddddddddd"},
+                {id:78, name:"hoge", text:"eeeeeeeeeeeeee"},
+                {id:876, name:"fuga", text:"ffffffffffffff"},
+                {id:1033, name:"hoge", text:"gggggggggggggg"},
+                {id:7899, name:"fuga", text:"hhhhhhhhhhhhhh"}
+            ]
+        }; // -> End of dataObject
+
+        var results = document.getElementById("results");
+        results.innerHTML = tmpl("item_tmpl", dataObject);
+
+
+</script>
+</html>

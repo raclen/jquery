@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://zeptojs.com/zepto.min.js"></script>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+</head>
+<body>
+<input type='text' id='txt'>
+<input type='button' value='button' id='btn'/>
+</body>
+<script>
+    var flag = false;
+    $('#txt').on('blur',function(){
+        flag = true;
+
+    })
+    $('#txt').on('click',function(e){
+        e.stopPropagation();
+
+    })
+    a.addEventListener()
+    $(document.body).on('click',function(){
+        if(flag){
+            alert('common in body click')
+        }
+
+    })
+    $('#btn').on('click',function(e){
+        e.stopPropagation();
+        alert('common in btn');})F6F6F6  8A8A8A
+</script>0076FF
+</html>

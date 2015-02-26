@@ -122,6 +122,11 @@ function Swipe(tBox, args) {
         }
     }
 
+    /**
+     *
+     * @param e
+     * @returns {boolean}
+     */
     function moveFun(e) {
         var point = e.touches[0];
         if (borderDetect(point.pageX, point.pageY)) {

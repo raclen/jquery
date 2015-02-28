@@ -2,168 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bc60a0-ab9d-4ca4-8d60-752dcbe9f9b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/Gruntfile.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/LICENSE-DOT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/requirejs/js/RequireJS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/advancedsnippet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/lib/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/browsersample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check_Num.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/compileBench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/container/container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/container/container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/customdoT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/templates/dashboard.jst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/data-part/data-part.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/data-part.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templating/doT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/doU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templating/doU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/bin/dot-packer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/eventemitter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/expressjs-wrapper/for-2.x/express-juicer-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/expressjs-wrapper/for-3.x/express-juicer-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/expressjs-wrapper/for-2.x/express-juicer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/expressjs-wrapper/for-3.x/express-juicer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/facilities.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake-entry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/fake/fake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/genspeed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/hello/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/lib/render/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/inner/inner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/ip/ip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/jquery-1.10.2.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/jslitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/juicer-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/nodejs/juicer-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/juicer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/juicer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/juicer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/bin/juicer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/knockout-3.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/templates/login.jst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/mask/mask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/micro2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/multidef.def.jst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/one.def" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/express/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/parent/parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/part/part.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/part/part.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/promo-client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Micro/promo-client.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/qunit-1.5.0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/qunit-1.5.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/router.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/routie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/saber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/sample/sample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/snippet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/load-test/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab1/tab1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab2/tab2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/example/widgets/tab3/tab3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/template-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/template-parser.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/benchmarks/templatesBench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/unit/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/test.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_001.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_this.shtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/test/testdoT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/load-test/text.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/lib/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/tpl/tpl-info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/requirejs/js/tpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl_test/tpltest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/views/two.dot.jst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/util.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasciptcode/validator/validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/dist/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/dist/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuejs/vue_test01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-cache/widget-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widget-cache.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widgets/widget-holder/widget-holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/src/widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saber-master/test/widget.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doT-master/examples/withdoT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/build/yui-wrapper/yui-juicer-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/test/yui-wrapper/yui-juicer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Juicer-master/src/yui-wrapper/yui-juicer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正则表达式/ze_02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正则表达式/ze_03.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daAir.html" afterPath="$PROJECT_DIR$/daAir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.one.js" afterPath="$PROJECT_DIR$/js/jquery.one.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/removeAttr.html" afterPath="$PROJECT_DIR$/removeAttr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/val.html" afterPath="$PROJECT_DIR$/val.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/SE.popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/SE.util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/rjs_build/buildcss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/zepto/fx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/testRequire/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/util/parseURL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/rjs_build/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/require/requireJs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/se.popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/seven.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/testRequireJS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/zepto/zepto.min.js" />
+      <change type="DELETED" beforePath="D:\git\jquery\requirejs\js\RequireJS.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lxy.html" afterPath="$PROJECT_DIR$/lxy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTouch-master/zTouch.js" afterPath="$PROJECT_DIR$/zTouch-master/zTouch.js" />
-      <change type="MOVED" beforePath="D:\git\jquery\ze_01.html" afterPath="$PROJECT_DIR$/正则表达式/ze_01.html" />
     </list>
     <ignored path="jquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -187,22 +42,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vue_test01.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vuejs/vue_test01.html">
+      <file leaf-file-name="testRequireJS.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirejs/testRequireJS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7975986" vertical-offset="0" max-vertical-offset="583">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vuejs/dist/vue.js">
+      <file leaf-file-name="buildcss.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/buildcss.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8847" max-vertical-offset="121860">
-              <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirejs/css/main.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <caret line="0" column="85" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirejs/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-build.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/index-build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/buildjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/requireJs/js/testRequire/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="810">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testRequireJS.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/requireJs/testRequireJS.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-build.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/requireJs/index-build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+              <caret line="6" column="145" selection-start-line="6" selection-start-column="145" selection-end-line="6" selection-end-column="28066" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,6 +225,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rjs_build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -313,10 +312,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\jquery" />
       <recent name="D:\git\jquery\vuejs" />
       <recent name="D:\git\jquery\tpl_test" />
       <recent name="D:\git\jquery\Micro" />
-      <recent name="D:\git\jquery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\jquery\正则表达式" />
@@ -389,22 +388,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -433,111 +432,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/saber-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="720">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doT-master/bin/dot-packer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doT-master/examples/browsersample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="900">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juicer-master/test/yui-wrapper/yui-juicer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1005">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juicer-master/test/unit/juicer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doT-master/test/testdoT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juicer-master/bin/juicer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1983" max-vertical-offset="2730">
-          <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Juicer-master/test/juicer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1185">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/ze_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/ze_02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53097343" vertical-offset="0" max-vertical-offset="565">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/home/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28645834" vertical-offset="0" max-vertical-offset="92460">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/ze_03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="780">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/requireJs/r.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2777777" vertical-offset="4590" max-vertical-offset="368040">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/home/css/bootstrap-responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="16725">
-          <caret line="191" column="3" selection-start-line="191" selection-start-column="3" selection-end-line="191" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/val.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="495">
@@ -780,6 +674,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8847" max-vertical-offset="121860">
           <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/todo-mvc/todo-mvc/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/todo-mvc/todo-mvc/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/requireJs/index-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="145" selection-start-line="6" selection-start-column="145" selection-end-line="6" selection-end-column="28066" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/requireJs/testRequireJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/requireJs/js/testRequire/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/js/common/seven/util/parseURL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46952224" vertical-offset="0" max-vertical-offset="607">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1367381" vertical-offset="0" max-vertical-offset="780">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/requireJs/rjs_build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6672158" vertical-offset="0" max-vertical-offset="690">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5145798" vertical-offset="405" max-vertical-offset="1035">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -788,6 +753,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7975986" vertical-offset="0" max-vertical-offset="583">
           <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/testRequireJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/index-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/buildjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/rjs_build/buildcss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirejs/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="85" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="85" />
           <folding />
         </state>
       </provider>

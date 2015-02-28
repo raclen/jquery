@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bc60a0-ab9d-4ca4-8d60-752dcbe9f9b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/SE.popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/SE.util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/rjs_build/buildcss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/zepto/fx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/testRequire/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/util/parseURL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/rjs_build/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/require/requireJs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/css/se.popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/seven/seven.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/testRequireJS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirejs/js/common/zepto/zepto.min.js" />
+      <change type="DELETED" beforePath="D:\git\jquery\requirejs\build.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\jquery\requirejs\index-build.js" afterPath="" />
       <change type="DELETED" beforePath="D:\git\jquery\requirejs\js\RequireJS.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lxy.html" afterPath="$PROJECT_DIR$/lxy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\git\jquery\requirejs\r.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\jquery\requirejs\rjs_build\build.js" afterPath="" />
     </list>
     <ignored path="jquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -249,42 +237,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rjs_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -389,7 +341,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -397,7 +349,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

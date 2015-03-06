@@ -1,4 +1,3 @@
-jquery
+﻿javascript
 ======
-
-jquery代码
+乱七八糟的代码

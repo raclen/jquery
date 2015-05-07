@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input type="button" value="btn" id="btn"/>
+<script>
+    var oBtn = document.getElementById('btn');
+    function addevent(obj, type, func) {
+        if (window.addEventListener) {
+            obj.addEventListener(type, func)
+        } else {
+            obj.attachEvent('on' + type, func)
+        }
+    }
+    addevent(oBtn, 'click', function () {
+        alert('ddd')
+    })
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+    var arr = [];
+    for (var i = 0; i < 10; i++) {
+        arr.push(getRandomInt(10, 100))
+    }
+    console.log(arr);
+    arr.sort(function (x, y) {
+        return x - y;
+    })
+    console.log(arr);
+
+    var a = 'name';
+    function ser() {
+        alert(a)
+        var a = 'hello'
+        alert(a)
+        alert(b)
+        function b() {
+            alert('sss')
+        }
+
+        alert(this.a)
+    }
+    ser()
+    ser({'a': 'hello world'})
+
+    var flag = true;
+    $('#btn').on('click', function () {
+        if (flag) {
+            alert('第一次点击')
+            flag == false;
+        } else {
+            alert('第二次点击')
+        }
+    })
+
+</script>
+</body>
+</html>

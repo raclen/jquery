@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 有限状态机
+     * @param config
+     * @returns {Arguments.callee}
+     * @constructor
+     */
+    function FSM( config ) {
+        // 允许不带new初始化对象
+      /*  if ( !( this instanceof arguments.callee ) ) {
+            return new arguments.callee( config );
+        }*/
+        // 初始状态和当前状态
+        this.initState = this.state = config.initState;
+        // 状态转移函数，带有两个参数：当前状态，事件
+        this.f = config.f;
+        // 终结状态
+        this.endState = config.endState;
+        // 终结回调
+        this.endCallback = config.endCallback;
+    }
+
+    FSM.prototype = {
+        // 用指定的事件触发有限状态机
+        test: function( event ) {
+            // 运行状态转移函数获得新状态
+            var newState = this.f( this.state, event );
+            // 测试新状态是否为终结状态。是则触发终结回调，反之将新状态设置为当前状态
+            if ( this.endState == newState ) {
+                this.endCallback();
+            } else {
+                this.state = newState;
+            }
+        }
+    };
+
+    var locker = new FSM( {
+        initState: "",
+        f: function( state, letter ) {
+            var input = state + letter;
+            // 密码如果允许含有有正则表达式含义的字符，需要先转义；为方便起见，此处省略
+            return new RegExp( "^" + input ).test( this.endState ) ? input : this.initState;
+        },
+        // 终态。也就是密码
+        endState: "w3K~p0R%4",
+        endCallback: function() {
+            alert( "Unlock Successfully!" );
+        }
+    } );
+
+    // 密码错误，无输出
+    testPassword( locker, "abcdefg" );
+    // 密码错误，无输出
+    testPassword( locker, "w3K~p0Rx4" );
+    // 密码正确，输出成功解锁信息
+    testPassword( locker, "w3K~p0R%4" );
+
+    function testPassword( locker, pw ) {
+        var a = pw.split( "" );
+        for( var i = 0; i < a.length; i++ ) {
+            locker.test( a[i] );
+        }
+    }
+</script>
+</body>
+</html>

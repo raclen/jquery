@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>appendjson</title>
+</head>
+
+<body>
+<script>
+    var str ='5,11|2,109'
+    var arr_str =str.split('|');
+
+    var data=[];
+    for(var i= 0,len=arr_str.length;i<len;i++){
+            data[i]={};
+        data[i].payType=arr_str[i].split(',')[0];
+        data[i].payBonus=arr_str[i].split(',')[1];
+    }
+
+    alert('data='+JSON.stringify(data));
+</script>
+</body>
+</html>

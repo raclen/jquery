@@ -1,23 +1,48 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>addClass</title>
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<style>
-.raclen{
-	color:#CF0; 
-	
-	}</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>addClass</title>
+    <!--<script type="text/javascript" src="js/jquery-1.7.2.js"></script>-->
+    <script type="text/javascript" src="js/jquery-1.11.js"></script>
+    <style>
+        ul {
+            margin: 10px;
+            list-style: inside circle;
+            font-weight: bold;
+        }
+
+        li {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-<p>I love you</p>
-<script type="text/javascript">
-$().ready(function(){
-	$("p").addClass("raclen");
-});
+<ul>
+    <li>Go to the store</li>
+    <li>Pick up dinner</li>
+    <li>Debug crash</li>
+
+    <li>Take a jog</li>
+</ul>
+<script>
+    $(function(){
+        $("li").toggle(
+                function () {
+                    $(this).css({"list-style-type": "disc", "color": "blue"});
+                },
+                function () {
+                    $(this).css({"list-style-type": "disc", "color": "red"});
+                },
+                function () {
+                    $(this).css({"list-style-type": "", "color": ""});
+                }
+        );
+    })
+
 
 </script>
+
 </body>
 </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>test-3</title>
+</head>
+<body>
+
+<div id="div1">
+    <p id="p1">这是一个段落。</p>
+
+    <p id="p2">这是另一个段落。</p>
+</div>
+<script>
+
+    function _objEvent() {
+        this._callBack = "";//记录回调函数
+
+        this._setCallBack = function (callback)//保存回调寒素
+        {
+            if (typeof(callback) == "function")//判断回调函数
+            {
+                this._callBack = callback;//保存回调函数
+            }
+        }
+
+        this._onclick = function ()//执行保存的回调函数
+        {
+            if (typeof(this._callBack) == "function")//判断回调函数
+            {
+                this._callBack();//这里少了个()号执行回调
+            }
+        }
+    }
+    function showkey()//回调函数
+    {
+        alert("miaomiaomiao");
+    }
+
+    var obj1 = new _objEvent();//实例化
+
+    obj1._setCallBack(showkey);//给对象设置回调函数
+
+    obj1._onclick();//执行回调，!!!!!!!!无效!!!!!!!!
+
+
+</script>
+
+</body>
+</html>

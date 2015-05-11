@@ -41,8 +41,43 @@
 
     obj1._setCallBack(showkey);//给对象设置回调函数
 
-    obj1._onclick();//执行回调，!!!!!!!!无效!!!!!!!!
+    obj1._onclick();//执行回调
 
+    //继承
+    function Person(name, age) {
+
+        this.name = name;
+        this.age = age;
+        this.sayname = function () {
+            alert("sayname");
+
+        }
+    }
+    //	Person.prototype={
+    //		hobby:function(){
+    //			return "片片鱼";
+    //
+    //			}
+    //
+    //		}
+    Person.prototype.hobby = function () {
+        alert("吃片片鱼");
+    }
+    function DDD(name, age) {
+        //Person.call(this,name,age)
+        this.eat = function () {
+            //return "dddd";
+            //call(Presson.hobby());
+        }
+
+    }
+    DDD.prototype = new Person();
+    var lxy = new Person("罗雪燕", "21");
+    //alert(lxy.name+""+lxy.hobby());
+    var wx = new DDD("王潇", "22");
+
+    wx.sayname();
+    wx.hobby();
 
 </script>
 

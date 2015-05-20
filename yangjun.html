@@ -6,17 +6,17 @@
 </head>
 <body>
 <input type="button" name="" id="btn"/>
-<script src="js/zepto/dist/zepto.js"></script>
+<script src="js/jquery-1.7.2.js"></script>
 <script>
     $.fn.toggle= function( fn ) {
         // Save reference to arguments for access in closure
         var args = arguments,
-                guid = fn.guid || jQuery.guid++,
+                guid = fn.guid || $.guid++,
                 i = 0,
                 toggler = function( event ) {
                     // Figure out which function to execute
-                    var lastToggle = ( jQuery._data( this, "lastToggle" + fn.guid ) || 0 ) % i;
-                    jQuery._data( this, "lastToggle" + fn.guid, lastToggle + 1 );
+                    var lastToggle = ( $._data( this, "lastToggle" + fn.guid ) || 0 ) % i;
+                    $._data( this, "lastToggle" + fn.guid, lastToggle + 1 );
 
                     // Make sure that clicks stop
                     event.preventDefault();

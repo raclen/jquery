@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>test-04</title>
+</head>
+
+<style>
+    body{
+        line-height: 135%;
+    }
+</style>
+<body>
+<input type="checkbox"/>
+<script src="js/zepto/dist/zepto.js"></script>
+<script>
+    var f = function () {
+        alert(1)
+    }
+    function f() {
+        alert(2)
+    }
+    f();//1
+    $('input').on('click',function(){
+        console.log($(this).prop('checked'));
+    })
+</script>
+</body>
+</html>

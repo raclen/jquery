@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<input type="text" id="b"/>
+<input type="text" id="ab"/>
+<script src="js/jquery-1.7.2.js"></script>
+<script>
+  /*  var name = 'dd';
+    var name2 = 'dd2';
+    var name3 = 'dd3';
+    function log() {
+        console.log(arguments)
+        console.log.apply(this, arguments)
+    }
+    log(name, name2, name3);*/
+
+    console.log($('#a.b'))
+
+
+
+ function params(uri) {
+      var ret = {},
+              seg = uri.substring(uri.indexOf('?')+1,uri.length).split('&'),
+              len = seg.length, i = 0, s;
+      for (; i < len; i++) {
+          if (!seg[i]) {
+              continue;
+          }
+          s = seg[i].split('=');
+          ret[s[0]] = s[1];
+      }
+      return ret;
+  }
+  var url =window.location.href;
+  params(url).bankCode//邀请码
+  params(url).recommendCode;//邀请人
+</script>
+</body>
+</html>

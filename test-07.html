@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>自定义事件</title>
+</head>
+<body>
+<script>
+    //将有参数的函数封装为无参数的函数
+    function createFunction(obj, strFunc) {
+        var args = [];       //定义args 用于存储传递给事件处理程序的参数
+        if (!obj) obj = window; //如果是全局函数则obj=window;
+        //得到传递给事件处理程序的参数
+        for (var i = 2; i < arguments.length; i++) {
+            args.push(arguments[i]);
+        }
+        //用无参数函数封装事件处理程序的调用
+        return function () {
+            obj[strFunc].apply(obj, args); //将参数传递给指定的事件处理程序
+        }
+    }
+
+    function class1() {
+
+    }
+
+    class1.prototype = {
+        show: function () {
+            this.onShow();
+        },
+        onShow: function () {
+        }
+    }
+
+    function objOnShow() {
+        for (var i = 0; i < arguments.length; i++) {
+
+            alert("hello," + arguments[i]);
+        }
+    }
+
+    function test() {
+        var obj = new class1();
+        var userName = "test";
+        obj.onShow = createFunction(null, "objOnShow", userName, 'yangjun');
+        obj.show();
+    }
+    test();
+</script>
+</body>
+</html>

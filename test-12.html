@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=0"/>
+    <title>transform</title>
+</head>
+<style>
+    .info-pup {
+        position: fixed;
+        width: 480px;
+        background-color: #ff0;
+        margin-left: -240px;
+        left: 50%;
+        top: 38%;
+        transform: scale(0.7);
+        opacity: 0;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        z-index: -2;
+        color: #000000;
+
+    }
+    .info-pup.show {
+        transform: scale(1);
+        opacity: 1;
+        z-index: 100;
+    }
+</style>
+<body>
+<div class="info-pup">
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+</div>
+<div class="info-pup">
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+</div>
+<div class="info-pup">
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+    <p>111111</p>
+</div>
+<input type="button" value="点击" id="btn"/>
+<script>
+
+</script>
+</body>
+</html>

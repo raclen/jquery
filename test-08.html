@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>菜单导航</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html,body{
+        height: 100%;
+        background-color: #7fc851;
+    }
+    li{
+        list-style: none;
+        border: #0076a0 solid 1px;
+        padding: 5px 8px;
+        margin-right: 15px;
+    }
+    ul li{
+        float: left;
+    }
+    ul{
+        padding: 10px 20px;
+        background-color: #0e0e0e;
+        color: #ffe3f0;
+    }
+    ul:after{
+        height: 0;
+        content: '';
+        display: block;
+        clear: both;
+        overflow: hidden;
+    }
+    .on{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 6px 0 6px;
+        border-color: #007bff transparent transparent transparent;
+        right: 5px;
+        top: 7px;
+    }
+
+    .tip{
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 6px solid;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+    }
+
+    li.drap{
+        position: relative;
+        width: 46px;
+    }
+    .drap li{
+        border: none;
+
+    }
+    .ul-menu1{
+        position: absolute;
+        left: -1px;
+        padding: 0;
+        width: 62px;
+        border: #0076a0 solid 1px;
+        border-top: none;
+        display: none;
+        top: 100%;
+
+
+    }
+    .ul-menu1 li{
+        margin: 0;
+        width: 46px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+</style>
+<body>
+<div class="warp">
+    <ul class="menu">
+        <li class="drap">
+            <a href="javacript:;">标题</a><i class="tip"></i>
+            <ul  class="ul-menu1">
+                <li><a href="">百度</a> </li>
+                <li><a href="">谷歌</a> </li>
+            </ul>
+        </li>
+        <li><a href="">导语</a></li>
+        <li><a href="">主题</a></li>
+        <li><a href="">背景</a></li>
+    </ul>
+</div>
+<script src="js/zepto/dist/zepto.js"></script>
+<script>
+$('.drap').on('click',function(){
+    $(this).find('ul').toggle()
+})
+</script>
+</body>
+</html>

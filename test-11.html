@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>两端对齐</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul li {
+        list-style: none;
+        display: -webkit-box;
+        display: box;
+        -webkit-box-pack: justify;
+        height:44px;
+        line-height: 44px;
+        background-color: #fff;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    span{
+        display: block;
+    }
+    a{
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        float: right;
+    }
+</style>
+<body>
+<ul>
+    <li><span>数量</span><span>3</span></li>
+    <li><span>金额</span><span>￥20</span></li>
+    <li><span>总计</span><span>500</span></li>
+</ul>
+<a href=""></a>
+</body>
+</html>

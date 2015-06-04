@@ -7,15 +7,26 @@
 <body>
 <script>
     function a() {
-             var name = '叶小钗';
-             function alertName() {
-                 alert(name);
-                 }
-             return alertName;
-         }
+        var name = '叶小钗';
 
-     var func = a();
+        function alertName() {
+            alert(name);
+        }
 
+        return alertName;
+    }
+
+    var func = a();
+    var o = {
+        t: 1,
+        test: function () {
+            o.t++;
+            console.log(o.t);
+            o.test();
+        }
+
+    }
+    o.test()
 </script>
 </body>
 </html>

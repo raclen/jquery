@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>queryselectorAll</title>
+</head>
+<body>
+<span id="txt">我是span标签</span>
+<div>
+    <ul id="ul">
+        <li class="red">11111111111</li>
+        <li class="red">2222222222</li>
+        <li class="red">3333333333333</li>
+        <li class="red">4444444444</li>
+    </ul>
+</div>
+</body>
+<script>
+    var red = document.querySelectorAll('.red');
+    console.log(red);
+    for(var i= 0,len=red.length;i<len;i++){
+        red[i].style.color='red';
+    }
+    var el=document.querySelector('.red');
+    console.log(el);
+    el.className='test';
+    var txt2 = document.getElementById('txt');
+    console.log(txt2);
+    txt2.setAttribute("align", "center")
+    var txt=document.querySelector('#txt');
+    console.log(txt);
+    txt.setAttribute('name','joay');
+    var arr=[111,222,3333,4444,5555];
+    arr.forEach(function(item,i){
+        console.log(item);
+    })
+    var oul= document.querySelector('#ul');
+    oul.appendChild('<li class="red">55555</li>');
+
+
+</script>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var url={
+            "cashGateID:'bill99',
+            GatewayRevOrderURL:'https://www.99bill.com/mobilegateway/recvMerchantInfoAction.htm?',
+            params:{
+                "bgUrl":"https://jkbis.wanlitong.com/bis/Bill99Callback",
+                "inputCharset": "1",
+                "language": "1",
+                "merchantAcctId": "1002419647901",
+                "mobileGateway": "phone",
+                "orderAmount": "246999",
+                "orderId": "2015061004327465",
+                "orderTime": "20150610095806",
+                "orderTimeOut": "2700",
+                "payType": "00",
+                "productName": "平安金兑换商品",
+                "signMsg": "gNLYOBpToMBwaJaWKnpROawdmDyaGnF+29BHWO6CDKgpdI0TewlxfmpknbB5GA7ncsrsp2RqMjKQngE7MdxalSbeJW0ojRvnDjJWP0wOJFtOy1Wc75XEV+9VONkADg1mT3NMq9uHdwKJj7LEjU+7efWhxAIozczIodxOaJLUMFM=",
+                "signType": "4",
+                "version": "mobile1.0"
+
+            },
+    "requestMethod":'get'
+    }
+    var params={
+        name:'q',
+        age:23,
+        aaa:'ss'
+    }
+    var str=''
+    for(i in url.params){
+        str =str+(i+'='+encodeURIComponent(url.params[i]+'')+'&');
+    }
+    console.log(url.GatewayRevOrderURL+str);
+</script>
+</body>
+</html>

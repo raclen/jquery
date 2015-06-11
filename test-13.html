@@ -2,16 +2,32 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>json</title>
+    <title>美化地址栏参数json</title>
 </head>
 <body>
+<input type="text" style="width:400px" id="txt" />
+<input type="button" id="btn" value="美化"/>
+<pre id="pre"></pre>
 <script>
-    var params={
-        bankId: "",
-        name:'中国',
-        age:'111'
+    function params(uri) {
+        var ret = {},
+                seg = uri.substring(uri.indexOf('?')+1,uri.length).split('&'),
+                len = seg.length, i = 0, s;
+        for (; i < len; i++) {
+            if (!seg[i]) {
+                continue;
+            }
+            s = seg[i].split('=');
+            ret[s[0]] = s[1];
+        }
+        return ret;
     }
 
+
+  var obtn=document.getElementById('btn');
+    obtn.addEventListener('click',function(){
+       document.getElementById('pre').innerHTML=JSON.stringify(params(document.getElementById('txt').value));
+    })
 </script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="ss"></div>
+<script src="js/zepto/dist/zepto.js"></script>
+<script>
+
+    var test=function(str){
+        return +str.replace(/￥|分/g, '');
+
+    }
+    var ss='￥60.00';
+   console.log(test('￥60.00')) ;
+
+var tips=20;
+    var arr={
+        countdown: function (o) {
+            var _fun = arguments.callee;
+            if (tips === 0) {
+                return;
+            }
+            tips--;
+            o.text(tips);
+            setTimeout(function () {
+                _fun(o);
+            }, 1000)
+
+        }
+    }
+    arr.countdown($('#ss'));
+    if(listout[0].availablePoints/listout[0].pointsExchangeRate>=payable){
+        $('.txt-input').eq(0).val(payable);
+        listout[0].useExCash = payable;
+        listout[0].paypoints = payable*listout[0].pointsExchangeRate;
+    }else{
+        var points1 = detail.tool.tofixed2(listout[0].availablePoints/listout[0].pointsExchangeRat);
+        listout[0].useExCash = points1;
+        listout[0].paypoints = points1*listout[0].pointsExchangeRate;
+        cash = payable-(points1);
+    }
+</script>
+</body>
+</html>

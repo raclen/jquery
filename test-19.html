@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul>
+    <li>11<input type="text" class="txt-input" /></li>
+    <li>22<input type="text" class="txt-input" value="22"/></li>
+    <li>33<input type="text" class="txt-input" value="33"/></li>
+</ul>
+
+
+<script src="js/zepto/dist/zepto.js"></script>
+<script>
+    $('.txt-input').on('input',function(){
+        alert($(this).parents('li').index())
+    })
+
+    var sum = 500, discounts = [];
+    var points = [[500, 10], [200, 20], [400, 3]];
+    for(var i = 0, len = points.length; i < len; i++) {
+        var current = points[i];
+        var current_discount = parseFloat(current[0] / current[1]).toFixed(2);
+        sum -= current_discount;
+        if(sum < 0) {
+            discounts.push(sum+current_discount);
+            break;
+        } else {
+            discounts.push(current_discount);
+        }
+    }
+    if(sum>0){
+        discounts.push(sum);
+    }
+    console.log(discounts);
+</script>
+</body>
+</html>

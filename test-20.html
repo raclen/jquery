@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+var pointsStr ='[{"txnStat":"10","pointsExchangeRate":500,"gateId":"000100","gateType":"1","txnPoints":5,"logoUrl":"image/mgw.png","brandId":"","txnAmt":0.01,"paypoints":5,"useExCash":0.01},{"txnStat":"10","pointsExchangeRate":500,"gateId":"003016","gateType":"57","txnPoints":490,"logoUrl":"image/cqhk.png","brandId":"h630","txnAmt":0.98,"paypoints":490,"useExCash":0.98}]';
+    var pointsArr =JSON.parse(pointsStr);
+var brandPointsList=[];
+for (var i = 0, len = pointsArr.length; i < len; i++) {
+    if(pointsArr[i].gateType !== '1'){
+        var str = {
+            'gateId':pointsArr[i].gateId,
+            'useExCash':(pointsArr[i].useExCash).toString()
+        }
+        brandPointsList.push(str);
+    }
+
+}
+    console.log(brandPointsList);//length=2
+    console.log(JSON.stringify(brandPointsList));//会发现第一项为null
+
+
+</script>
+</body>
+</html>

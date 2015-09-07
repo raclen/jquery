@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var i = 0;
+
+    function draw(i) {
+        var str_tr = '<tr ><td><a href="javascript:void(0);" id="pre">' + i + '</a></td></tr>';
+        var tr = document.createElement('tr');
+        tr.innerHTML = str_tr;
+        tr.id = 'lytable';
+        document.body.appendChild(tr);
+        addeven();
+    }
+    draw(0);
+
+    function addeven() {
+        var lytable = document.getElementById('lytable');
+        document.getElementById('pre').addEventListener('click', function (e) {
+            lytable.parentNode.removeChild(lytable);
+            i++;
+            draw(i)
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    }
+
+</script>
+</body>
+</html>

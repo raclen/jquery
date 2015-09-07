@@ -23,11 +23,14 @@
     <li>Go to the store</li>
     <li>Pick up dinner</li>
     <li>Debug crash</li>
-
     <li>Take a jog</li>
 </ul>
 <script>
-    $(function(){
+    var data = {
+        'one': 'string',
+        'two': [1, 2, 3, 4]
+    }
+    $(function () {
         $("li").toggle(
                 function () {
                     $(this).css({"list-style-type": "disc", "color": "blue"});
@@ -40,6 +43,16 @@
                 }
         );
     })
+    var F = function (name, arr) {
+        this.name=name;
+        this.arr = arr;
+    }
+    var data = {
+        'one': 'string',
+        'two': [1, 2, 3, 4]
+    }
+    var f=new F(data.one,data.two);
+    console.log(f.arr);
 
 
 </script>

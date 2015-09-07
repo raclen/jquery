@@ -87,7 +87,7 @@
             for (var i = 0, len = otd.length; i < len; i++) {
                 otd[i].addEventListener('click', function (e) {
                     var tml = e.target.innerHTML;
-                    var val = self._year + '/' + self._month + '/' + tml;
+                    var val = self._year + '/' + (self._month+1) + '/' + tml;
                     var oid = document.getElementById(self.id);
                     oid.value = val;
                     lytable.parentNode.removeChild(lytable);
@@ -125,7 +125,7 @@
             var nowyear = new Date().getFullYear();
             var month = this._month;
             var year = this._year;
-            var val = this._year + '/' + this._month + '/' + nowdata;
+            var val = this._year + '/' + (this._month+1) + '/' + nowdata;
             var oid = document.getElementById(this.id);
             oid.value = val;
             var showmonth = month + 1;

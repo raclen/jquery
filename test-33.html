@@ -53,21 +53,23 @@
             var top = oid.offsetTop;
             var his = oid.offsetHeight;
             console.log(left);
-            var lytable = document.getElementById('lytable');
+            var tableid = this.id + 'lytable';
+            var lytable = document.getElementById(tableid);
             lytable.style.position = 'absolute';
             lytable.style.top = his + top + 'px';
             lytable.style.left = left + 'px';
         },
         listen: function () {
             var self = this;
-            var lytable = document.getElementById('lytable');
+            var tableid = this.id + 'lytable';
+            var lytable = document.getElementById(tableid);
             document.getElementById('pre').addEventListener('click', function (e) {
                 self._month = self._month - 1;
                 if (self._month == -1) {
                     self._month = 11;
                     self._year = self._year - 1;
                 }
-                if (lytable)lytable.parentNode.removeChild(lytable);
+                if (!!lytable)lytable.parentNode.removeChild(lytable);
                 self.drawDate();
                 e.stopPropagation();
                 e.preventDefault();
@@ -78,16 +80,16 @@
                     self._month = 0;
                     self._year = self._year + 1;
                 }
-                if (lytable)lytable.parentNode.removeChild(lytable);
+                if (!!lytable)lytable.parentNode.removeChild(lytable);
                 self.drawDate();
                 e.stopPropagation();
                 e.preventDefault();
             })
-            var otd = document.querySelectorAll('#lytable tr td');
+            var otd = document.querySelectorAll('#' + tableid + ' tr td');
             for (var i = 0, len = otd.length; i < len; i++) {
                 otd[i].addEventListener('click', function (e) {
                     var tml = e.target.innerHTML;
-                    var val = self._year + '/' + (self._month+1) + '/' + tml;
+                    var val = self._year + '/' + (self._month + 1) + '/' + tml;
                     var oid = document.getElementById(self.id);
                     oid.value = val;
                     lytable.parentNode.removeChild(lytable);
@@ -125,7 +127,7 @@
             var nowyear = new Date().getFullYear();
             var month = this._month;
             var year = this._year;
-            var val = this._year + '/' + (this._month+1) + '/' + nowdata;
+            var val = this._year + '/' + (this._month + 1) + '/' + nowdata;
             var oid = document.getElementById(this.id);
             oid.value = val;
             var showmonth = month + 1;
@@ -136,7 +138,10 @@
             var first_day = first_date.getDay();
             //第一天是星期几加上总天数，一个星期共有7天，除以7，就是行数，只能多不能少，所以用Math.ceil向上取整数
             var str_num = Math.ceil((first_day + numdays) / 7);//得到表格有多少行
-
+            // 如果存在，则移除整个日期层Container
+            var tableid = this.id + 'lytable';
+            var odiv = document.getElementById(tableid);
+            if (!!odiv) odiv.parentNode.removeChild(odiv);
             var str_table = '<tr><td><a href="javascript:void(0);" id="pre"><</a></td><td colspan="3">' + year + '年</td><td colspan="2">' + showmonth + '月</td><td><a href="javascript:void(0);" id="next">></a></td></tr><tr><td >日</td><td >一</td><td >二</td><td >三</td><td >四</td><td >五</td><td >六</td></tr>';
             var table = document.createElement('table');
             table.innerHTML = str_table;
@@ -157,7 +162,7 @@
                 }
                 table.appendChild(tr);
             }
-            table.id = 'lytable';
+            table.id = this.id + 'lytable';
             // console.log(table.innerHTML);
             document.body.appendChild(table);
             this.getpos();

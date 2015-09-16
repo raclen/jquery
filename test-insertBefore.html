@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>insertBefore</title>
+</head>
+<body>
+<div id="parentElement">
+    <span id="childElement">foo bar</span>
+    <span id="childElement2">foo2 bar</span>
+    <span>foo3 bar</span>
+    <span>foo4 bar</span>
+</div>
+
+<script>
+    var span1 = document.createElement('span');
+    span1.innerHTML = 'test';
+    /*  var span2=document.getElementById('childElement');
+     var span3=document.getElementById('childElement2');
+     var parentspan=span2.parentNode;
+     parentspan.insertBefore(span1,span2.nextSibling);*/
+    //parentspan.appendChild(span1);
+    var pre = document.getElementById('parentElement');
+    var span = pre.getElementsByTagName('span');
+    pre.insertBefore(span1, span[1]);
+    parentElement.onclick = function (e) {
+    if(e.target.nodeName=='SPAN'){
+        alert(e.target.innerHTML);
+    }
+    }
+</script>
+</body>
+</html>

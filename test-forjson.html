@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var arraydata = [{
+        'modelKey': "空调尺寸",
+        'modelValue': "Siez2"
+    }];
+    var json1 = {
+        'modelKey': "空调尺寸",
+        'modelValue': "Siez21"
+    }
+    var json2 = {
+        'modelKey': "燃油机尺寸",
+        'modelValue': "RvSize1"
+    }
+    var json3 = {
+        'modelKey': "燃油机尺寸",
+        'modelValue': "123"
+    }
+    /*    var data = [{
+     'modelKey': "空调尺寸",
+     'modelValue': "Siez2"
+     }, {
+     'modelKey': "燃油机尺寸",
+     'modelValue': "RvSize1"
+     }, {
+     'modelKey': "燃油机尺寸",
+     'modelValue': "123"
+     },
+     {
+     'modelKey': "煤气",
+     'modelValue': "1234"
+     }]*/
+    function pusharr(json,a) {
+        if (arraydata.length == 0) {
+            arraydata.push(json)
+            return arraydata;
+        }
+        for (var i in arraydata) {
+            if (json[a] == arraydata[i][a]) {
+                for (var j in json) {
+                    arraydata[i][j] = json[j];
+                }
+            }
+            else
+                arraydata.push(json)
+        }
+        return arraydata;
+    }
+    console.log(pusharr(json1,'modelKey'))
+</script>
+</body>
+</html>

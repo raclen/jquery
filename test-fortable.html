@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>日历</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    th {
+        /*border: 1px solid #000;*/
+    }
+
+    th, td {
+        border: 1px solid #000;
+        width: 20px;
+        height: 20px;
+    }
+
+    table {
+        margin: 100px auto auto auto;
+    }
+</style>
+<body>
+<script>
+    var foreach = function (arr, fn) {
+        var i = 0, len = arr.length;
+        for (; i < len; i++) {
+            if (fn(i, arr[i]) === false) {
+                break
+            }
+        }
+    };
+    //生成表格
+    var viewtb = (function () {
+        var tr, view = [], weeks = ['日', '一', '二', '三', '四', '五', '六'];
+        var log = {}, table = document.createElement('table'), thead = document.createElement('thead');
+        thead.appendChild(document.createElement('tr'));
+        log.creath = function (i) {
+            var th = document.createElement('th');
+            th.innerHTML = weeks[i];
+            thead.getElementsByTagName('tr')[0].appendChild(th);
+            th = null;
+        };
+
+        foreach(new Array(6), function (i) {
+            view.push([]);
+            tr = table.insertRow(0);
+            foreach(new Array(7), function (j) {
+                view[i][j] = 0;
+                i === 0 && log.creath(j);
+                tr.insertCell(j);
+            });
+        });
+
+        table.insertBefore(thead, table.children[0]);
+        table.id = table.className = 'laydate_table';
+        tr = view = null;
+        document.body.innerHTML = table.outerHTML;
+//        return table.outerHTML.toLowerCase();
+    }());
+</script>
+</body>
+</html>

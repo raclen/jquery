@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=320, target-densitydpi=device-dpi,user-scalable=0">
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<style>
+    input{
+        -webkit-appearance:none;
+    }
+    select{
+        width: 200px;
+        height: 30px;
+    }
+    p { color:red; margin:4px; }
+    b { color:blue; }
+</style>
+<body>
+<p></p>
+
+<select id="single">
+    <option data-bin="bin">Single</option>
+    <option>Single2</option>
+</select>
+
+
+<script>
+    $("select").change(function(){
+        var singleValues = $("#single").val();
+        $("p").html("<b>Single:</b> " +
+        singleValues);
+    });
+</script>
+
+</body>
+</html>

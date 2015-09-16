@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>isEmptyObject</title>
+</head>
+<body>
+<script>
+    var data={
+        name:'hello'
+    }
+    var isEmptyObject= function( obj ) {
+        var name;
+        for ( name in obj ) {
+            return false;
+        }
+        return true;
+    }
+   console.log(isEmptyObject(data))
+</script>
+</body>
+</html>

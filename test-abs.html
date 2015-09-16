@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>绝对值的使用</title>
+</head>
+<body>
+<script>
+    //a=50,数组b中有80,120,65,30,求出数组b中最接近a值得数字。我只知道一个大概的思想，就是不知道代码要怎么写
+    var b = [80, 120, 65, 30];
+    var a = 50;
+    var res = [];
+    //循环b数组和a作差，并取绝对值，存起来；
+    for (var i = 0, len = b.length; i < len; i++) {
+        res.push(Math.abs(b[i] - a));
+    }
+    //根据数组中的某个值，返回索引
+    function charat(arr, value) {
+        for (var i = 0, len = arr.length; i < len; i++) {
+            if (arr[i] == value) {
+                return i;
+            }
+        }
+    }
+    //找到res数组中最小的值
+    var min = Math.min.apply(null, res);
+    var bmin = b[charat(res, min)];
+    alert('最接近a的值是' + bmin);
+</script>
+</body>
+</html>

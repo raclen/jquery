@@ -5,8 +5,8 @@
     <title>美化地址栏参数工具</title>
 </head>
 <style>
-    #pre{
-        color:#008000;
+    #pre {
+        color: #008000;
     }
 </style>
 <body>
@@ -20,17 +20,17 @@
 
 
 </pre>
-<input type="text" style="width:400px;" id="txt" />
+<input type="text" style="width:400px;" id="txt"/>
 <input type="button" id="btn" value="一键美化"/>
 <pre id="pre"></pre>
 <script src="beautlful.js"></script>
 <script>
     function params(uri) {
-        if(uri.indexOf('{')>-1){
+        if (uri.indexOf('{') > -1) {
             return uri;
         }
         var ret = {},
-                seg = uri.substring(uri.indexOf('?')+1,uri.length).split('&'),
+                seg = uri.substring(uri.indexOf('?') + 1, uri.length).split('&'),
                 len = seg.length, i = 0, s;
         for (; i < len; i++) {
             if (!seg[i]) {
@@ -43,9 +43,9 @@
     }
 
 
-  var obtn=document.getElementById('btn');
-    obtn.addEventListener('click',function(){
-       document.getElementById('pre').innerHTML=js_beautify(params(document.getElementById('txt').value));
+    var obtn = document.getElementById('btn');
+    obtn.addEventListener('click', function () {
+        document.getElementById('pre').innerHTML = js_beautify(params(document.getElementById('txt').value));
     })
 </script>
 </body>

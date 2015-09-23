@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>进度条</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .progress-bar {
+        width: 400px;
+        height: 20px;
+        background: #e4e4e4;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+
+    .progress-highlight {
+        background: #60baff;
+        border-radius: 10px;
+        height: 20px;
+        display: block;
+        width: 0;
+    }
+
+</style>
+<body>
+<p class="progress-bar">
+    <span class="progress-highlight"></span>
+</p>
+<script>
+    var ph = document.querySelectorAll('.progress-highlight')[0];
+    var s = 0;
+    (function phfun(){
+        s = s + 5;
+        if (s <= 100) {
+            setTimeout(function () {
+                ph.style.cssText = 'width:' + s + '%';
+                phfun()
+            }, 100);
+            return
+        }
+        alert('加载成功');
+    })()
+</script>
+</body>
+</html>

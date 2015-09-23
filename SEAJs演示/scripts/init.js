@@ -9,7 +9,6 @@ define(function(require, exports, module) {
 	//alert(data.color);
 	 $('.blog').text(data.text);
 	$("#test_div").click(function(){
-		
 		alert("11111")
 		})
 });

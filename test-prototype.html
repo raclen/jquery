@@ -2,22 +2,34 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>prototype实现对象内共享</title>
 </head>
 <body>
 <script>
-    function P(){
-        this.name='qq';
-        this.getName=function(){
+    function P(name, age) {
+        this.name = name;
+        this.age = age;
+        this.getName = function () {
             return this.name;
         }
     }
-    function C(){
-
+    P.prototype.getAge = function () {
+        return this.age;
     }
-    C.prototype=new P();
-    var c= new C();
-    alert(c.getName());
+    var qq = new P('qq', 10);
+    console.log(qq.getName());
+    console.log(qq.getAge());
+    var sogou = new P('sogou', 9);
+    console.log(sogou.getName());
+    console.log(sogou.getAge());
+
+      function C(){
+
+     }
+     C.prototype=new P('cc',23);
+     var cc= new C();
+    console.log(cc.getName());
+    console.log(cc.getAge());
 </script>
 </body>
 </html>

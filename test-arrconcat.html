@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var item1=[
+        {
+            "title": "第一期珠三角JS分享会-海珠区TIT创库·爱范儿【客村站】【9月19号】",
+            "href": "/topic/55ee9345306cfaa20e3e31f3"
+        },
+        {
+            "title": "CNode客户端专题",
+            "href": "/topic/55c5f41139273b92193362fb"
+        },
+        {
+            "title": "【深js】ppt分享",
+            "href": "/topic/55a25700419f1e8a23a64372"
+        }];
+
+    var item2=[
+        {
+            "item1": "https://avatars.githubusercontent.com/u/7895242?v=3&s=120",
+            "author": "heixiaoshan"
+        },
+        {
+            "imgurl": "https://avatars.githubusercontent.com/u/1147375?v=3&s=120",
+            "author": "alsotang"
+        },
+        {
+            "imgurl": "https://avatars.githubusercontent.com/u/3118295?v=3&s=120",
+            "author": "i5ting"
+        }]
+
+    for(var i in item1){
+        item1[i].imgurl=item2[i].imgurl
+    }
+    console.log(item1);
+</script>
+</body>
+</html>

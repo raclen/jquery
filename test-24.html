@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var arr = [
+        {
+            "categoryId": 2014110601,
+            "categoryName": "资源ID",
+            "type": 1
+        },
+        {
+            "categoryId": 2014110602,
+            "categoryName": "城市",
+            "type": 2
+        },
+        {
+            "categoryId": 2014110603,
+            "categoryName": "省份",
+            "type": 2
+        },
+        {
+            "categoryId": 2014110604,
+            "categoryName": "票种",
+            "type": 2
+        },
+        {
+            "categoryId": 2014110605,
+            "categoryName": "成本",
+            "type": 1
+        }
+    ];
+    var arr2 = {
+        2014110601: {
+            "categoryName": "资源ID",
+            "type": 1
+        },
+        2014110602: {
+            "categoryName": "城市",
+            "type": 2
+        }
+    }
+    var res = {};
+    for (var i in arr) {
+        res[arr[i].categoryId] = {};
+        res[arr[i].categoryId].categoryName = arr[i].categoryName;
+        res[arr[i].categoryId].type = arr[i].type;
+    }
+    console.log(res);
+</script>
+</body>
+</html>

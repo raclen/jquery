@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script src="http://libs.useso.com/js/underscore.js/1.6.0/underscore.js"></script>
+<script>
+    var func = function(greeting){ return greeting + arguments[1]+': ' + this.name };
+    func = _.bind(func, {name: 'moe'}, 'hi','111');
+    console.log(func());
+</script>
+</body>
+</html>

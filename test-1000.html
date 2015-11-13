@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>递归</title>
+</head>
+<body>
+<script>
+    /**
+     * 1000元红包多少个人可以猜到
+     * @type {number}
+     */
+    var i = 0;
+    function select(num) {
+        var res = num / 2;
+        i++;
+        if (res < 1)return;
+        select(res);
+    }
+    select(1000);
+    console.log(i);
+
+
+/*
+N!
+ */
+    var tit=1;
+    function factorial(n) {
+         tit=tit*n;
+        if (n === 1) {
+            return;
+        } else {
+             factorial(n-1);
+        }
+    }
+    factorial(3);
+    console.log(tit)
+</script>
+</body>
+</html>

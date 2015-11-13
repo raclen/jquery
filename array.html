@@ -1,26 +1,145 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>val</title>
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <title>val</title>
 </head>
 
 <body>
 
-<script type="text/javascript">
-var arr=[1,22,333,22,4];
-for(i=0;i<arr.length;i++)
-{
-for(j=0;j<arr.length;j++){
-	if(i!=j&&arr[i]==arr[j]){
-		arr.splice(i,1);
-		}
-	
-	}
-}
-alert(arr);
-	</script>
+<script>
+    var arr2 = [
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸2", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸3", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸3", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸3", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸3", "modelValue": ["xin2", "xin1"]},
+        {"modelKey": "机油机尺寸", "modelValue": ["xin2", "xin1"]}
+
+    ];
+    var arr3 = [2, 5, 1, 1, 1, 1, 1, 5, 2, 1];
+    var unique = function (arr) {
+        for (var i = 0; i < arr.length; i++) {
+            for (var j = 0; j < arr.length; j++) {
+                if (i != j && arr[i]['modelKey'] == arr[j]['modelKey']) {
+                    arr.splice(j, 1);
+                }
+            }
+
+        }
+        return arr;
+    }
+    var arr4 = [2, 5, 1, 1, 1, 1, 1, 5, 2, 1];
+
+    //分割线
+    var unique3 = function (arr) {
+        var k = 0;
+        for (var i = 0; i < arr.length; i++) {
+            for (var j = 0; j < arr.length; j++) {
+                if (i != j && arr[i] == arr[j]) {
+                    arr.splice(j, 1);
+                    i--;
+                    k++;
+                }
+            }
+
+        }
+        alert('k' + k)
+        return arr;
+    }
+    /* console.log(unique(arr2))
+     console.log(unique3(arr3))*/
+    var suiji = function (num1, num2) {
+        return Math.floor(Math.random() * num2 + num1)
+    }
+    var newarr = [];
+    for (var i = 0; i < 10000; i++) {
+        newarr.push(suiji(1, 10))
+    }
+    console.log('newarr' + newarr);
+    var arr = {
+        unique: function (arr) {
+            var res = [], i = 0, len = arr.length;
+            for (; i < len; i++) {
+                if (!res.length || this.compare(arr[i], res)) {
+                    res.push(arr[i]);
+                }
+            }
+            return res;
+
+        },
+        compare: function (k, arr) {
+            var len = arr.length, i = 0;
+            for (; i < len; i++) {
+                if (arr[i] == k) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+    alert(unique3(arr4))
+    alert(arr.unique(arr4))
+    console.time('test')
+    console.log(arr.unique(newarr))
+    console.timeEnd('test')
+    console.time('test2')
+    console.log(unique3(newarr))
+    console.timeEnd('test2')
+
+    }
+
+
+
+    /*js的遍历json*/
+    window.onload = function () {
+        var dzTab = {
+            "zd": [
+                {
+                    "id": "1",
+                    "ip": "192.168.2.10",
+                    "name": "yyyyyy",
+                    "mac": "00-12-34-89-99-01"
+                },
+                {
+                    "id": "2",
+                    "ip": "192.168.2.11",
+                    "name": "ssssss",
+                    "mac": "00-12-34-89-99-02"
+                }]
+        }
+        var data = dzTab.zd;
+        /*传统for循环*/
+        /*for(var i=0;i<data.length;i++){
+
+         alert("id="+data[i].id+",ip="+data[i].ip+",name="+data[i].name+",mac="+data[i].mac)
+         }*/
+        /*for in循环*/
+        /*for(i in data){
+
+         alert("id="+data[i].id+",ip="+data[i].ip+",name="+data[i].name+",mac="+data[i].mac)
+         }*/
+
+        /*jquery遍历	*/
+        $.each(data, function (i, items) {
+
+            alert("id=" + items.id + ",ip=" + items.ip + ",name=" + items.name + ",mac=" + items.mac)
+
+        })
+
+
+    }
+</script>
 
 </body>
 </html>
+
+
+

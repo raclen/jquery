@@ -78,12 +78,10 @@
     var oli = oul.getElementsByTagName('li');
     opre.addEventListener('click', function () {
         oul.appendChild(oli[0]);
-        //oul.removeChild(oli[0]);
-    })
+    });
     onext.addEventListener('click', function () {
         var len = oli.length - 1;
         oul.insertBefore(oli[len], oli[0]);
-        //oul.removeChild(oli[0]);
     })
 </script>
 </body>

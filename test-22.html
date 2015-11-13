@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>判断身份证是否满18岁</title>
+</head>
+<body>
+<input type="button" class="goumai" data-producid="@item.Id"  value="购买" />
+<script>
+    var cardid = '330102200801083039';
+    var data = cardid.substring(6, 14);
+    data.replace(/(\d{4})(\d{2})(\d{2})/g,'$1'+'/'+'$2'+'/'+'$3');
+    var res = data.substring(0, 4) + '/' + data.substring(4, 6) + '/' + data.substring(6, 8)
+
+
+$('.goumai').on('click',function(e){
+    var producid=$(this).data('producid');
+    location.href = "ProductInfo?id="+producid;
+    e.stopPropagation();
+    e.preventDefault();
+})
+
+</script>
+</body>var bin = new Buffer([ 0x68, 0x65, 0x6c, 0x6c, 0x6f ]);
+</html>

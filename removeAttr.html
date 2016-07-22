@@ -6,9 +6,9 @@
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 </head>
 
-<body>  
+<body>
 <button>点击切换</button>
-<input type="text" title="removeAttr"/>
+<input type="text" title="removeAttr" />
 <div id="112"></div>
 <script>
 $().ready(function(){
@@ -21,9 +21,14 @@ $().ready(function(){
 				input.attr("title",inputTitle);
 				}
 				$("#112").html("input title is now"+input.attr("title"));
-				
+
 		});
+
+	$('input').on('keyup',function(e){
+		console.log(e.keyCode)
+
+	})
 	});
-</script>2d0707 4a0b0b
+</script>
 </body>
 </html>

@@ -10,6 +10,10 @@
     var func = function(greeting){ return greeting + arguments[1]+': ' + this.name };
     func = _.bind(func, {name: 'moe'}, 'hi','111');
     console.log(func());
+    var arr=[1,2,6];
+    arr.forEach(function(item,i,res){
+        alert(i+'='+item+',arr='+res.length);
+    })
 </script>
 </body>
 </html>

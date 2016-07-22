@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
     <title>验证提示框</title>
@@ -10,115 +11,130 @@
         padding: 0;
         font: 12px/1.5 "Microsoft yahei", Tahoma, Simsun, sans-serif
     }
-
+    
     form {
         margin: 200px auto auto auto;
         display: block;
         width: 200px;
     }
-
+    
     form input {
         width: 200px;
         height: 28px;
         border: 1px #000 solid;
         margin-top: 5px;
-
     }
-
+    
     input[type="button"] {
         border: 1px #000 solid;
         width: 202px;
     }
-
     /*提示框css*/
-    .popup-error {
+    
+     .popup-error {
         position: absolute;
-        border: #ff3126 1px solid;
         color: #ff3126;
-        background-color: #ffab67;
+        background-color: #ffebe5;
         display: inline-block;
         padding: 0 10px;
+        border-radius: 4px;
     }
-
+    
     .popup-error i {
         width: 0;
         height: 0;
         border-style: solid;
         border-width: 8px 8px 8px 0;
-        border-color: transparent #ffab67 transparent transparent;
+        border-color: transparent #ffebe5 transparent transparent;
         position: absolute;
         left: -8px;
         top: 6px;
-
     }
 </style>
+
 <body>
-<form action="">
-    <input id="ad" type="text" placeholder="请输入名称" data-error="请输入名称"/>
+    <form action="">
+        <div><input id="ad" type="text" placeholder="请输入景点ID" regex="checkRelationId" /></div>
 
-    <!--    <div class="popup-error"><i></i>请输入姓名</div>-->
-    <input type="password" placeholder="请输入密码" data-error="请输入密码"/>
-    <input type="text" placeholder="请输入地址" data-error="请输入地址"/>
-    <input type="button" value="提交" id="confirm"/>
-</form>
-<script type="text/javascript" src="js/jquery-1.11.js"></script>
-<script>
+       <div><input type="text" placeholder="请输入日期" regex="checkDate" /></div>
+        
+        <input type="button" value="提交" id="confirm" />
+    </form>
+    <script type="text/javascript" src="js/jquery-1.11.js"></script>
+    <script>
     /*
-     function PopupError(o) {
-     if(!(this instanceof PopupError)){
-     return new PopupError()
-     }
-     var defparams = {
-     _this:'',
-     msg: ''
-     }
+         function PopupError(o) {
+         if(!(this instanceof PopupError)){
+         return new PopupError()
+         }
+         var defparams = {
+         _this:'',
+         msg: ''
+         }
 
-     this.opt = $.extend(defparams, o);
-     this.init();
-     PopupError.prototype={
-     init:function(){
-     var _this=this.opt._this;
-     var top=$(_this).offset().top;
-     var left=$(_this).offset().left;
-     $('.popup-error').css({left:left+'px',top:top+'px'}).html('<i></i>'+msg);
+         this.opt = $.extend(defparams, o);
+         this.init();
+         PopupError.prototype={
+         init:function(){
+         var _this=this.opt._this;
+         var top=$(_this).offset().top;
+         var left=$(_this).offset().left;
+         $('.popup-error').css({left:left+'px',top:top+'px'}).html('<i></i>'+msg);
 
-     }
-     }
+         }
+         }
 
-     }
+         }
 
-     PopupError({
-     _this:''
-     })
-     */
-    ;
-    (function ($) {
-        $.fn.poperror = function (options) {
+         PopupError({
+         _this:''
+         })
+         */
+   ;
+    (function($) {
+        $.fn.popupError = function(options) {
             var defaults = {
                 msg: "",
-                delay: ''
+                delay: '',
+                destroy:false,
             };
-            var opts = $.extend(defaults, options);//extend后面的会覆盖前面的值
-            var top = $(this).offset().top;
-            var width = $(this).width();
-            var left = $(this).offset().left + width + 8;
-            var height = $(this).height();
+            var opts = $.extend(defaults, options); //extend后面的会覆盖前面的值
+            var $this = $(this);
+            if(options.destroy){
+            	destroy();
+                return;
+            }
+            var top = $this.position().top;
+            var width = $this.width();
+            var left = $this.position().left + width + 13;
+            var height = $this.css('height');
             var popup = $('<div class="popup-error"></div>');
             popup.css({
                 left: left + 'px',
                 top: top + 'px',
-                height: height + 'px',
-                lineHeight: height + 'px'
+                height: height ,
+                width: "inherit",
+                lineHeight: height 
             }).html('<i></i>' + opts.msg);
+            destroy();
             $(this).after(popup);
             if (opts.delay) {
-                popup.animate({opacity: 0}, opts.delay);
-                setTimeout(function () {
+                popup.animate({
+                    opacity: 0
+                }, opts.delay);
+                setTimeout(function() {
                     popup.remove()
                 }, opts.delay)
 
 
             }
+ 
+             $(this).on('focus', function() {
+            	 destroy()
+             })
+             function destroy(){
+            	 $this.parent().find('.popup-error').remove();
+             }
         }
     })(jQuery)
     /*   $('input').on('click', function () {
@@ -127,18 +143,64 @@
      delay: 2000
      });
      })*/
-    $('#confirm').on('click', function () {
-        var input = $('form input'),
-                len = input.length;
-        for (var i = 0; i < len; i++) {
-            if (input.eq(i).val() == '') {
-                input.eq(i).poperror({
-                    msg: input.eq(i).data('error'),
-                    delay: 2000
-                });
+    var Reg = {
+        checkNull: function (str) {
+            return '' === str;
+        },
+        checkRelationId: function (str) {
+            if (this.checkNull(str)) {
+                return [false, '请填写景点/地区ID'];
+            } else {
+                return [true,];
+            }
+        },
+        checkDate: function (str) {
+            if (this.checkNull(str)) {
+                return [false, '请选择日期'];
+            } else {
+                return [true,];
+            }
+        },
+        checkRegfun: function (ele) {
+            var that = this;
+            var regName = ele.attr('regex');
+            var val = $.trim(ele.val());
+            if (!that[regName]) {
+                return;
+            }
+            var bl = that[regName].call(that, val);
+            if (!bl[0]) {
+                ele.popupError({
+                    msg: bl[1]
+                })
+                return false;
+            } else {
+            	ele.popupError({
+            		destroy: true
+                })
+                return true;
             }
         }
+    }
+
+    $('form input[type="text"]').on('blur', function() {
+        Reg.checkRegfun($(this))
     })
-</script>
+    $('#confirm').on('click', function() {
+        var input = $('form input[type="text"]');
+        var err = 0;
+        input.each(function(i, item) {
+            if(!Reg.checkRegfun($(item))){
+                err++
+            }
+
+        })
+        if(!!err){
+            return;
+        }
+        console.log('algin')
+    })
+    </script>
 </body>
+
 </html>

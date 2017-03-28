@@ -14,9 +14,7 @@
  /**
  *
  *工具用于美化后台日志里面复制下来的参数，也可以美化没有缩进的json。支持这样的
- *http://lpms-cust-p5.dmzstg.pingan.com.cn/mobileapi/m2/paymentGate/queryPayDetail.do?authType=SHA1_1&custString=wlt_app_h5&reqTime=1433497837547&reqId=10000021&merId=000000004-010000021-SW10000002&orderId=2015060500007124045&orderAmt=100.00&sysTxnId=2015060547045421&machineNo=864375028810514&coordinate=168.49679%2C28.82855&token=ab052ee613f85cab20c54a28000434df&reqAppId=ios&msgVersion=1.1&screenSize=960*480&sign=2c14d7eca59b1ef228555f05c7b963069ee5be51&callback=jsonp_pay
- *和jsonp_pay({"body":{"compress":false,"encrypt":false,"message":"系统异常，请稍后再试！客服电话：4008－666－666。","result":{"orderId":"2015060500007124045","prodName":"平安金","orderInfo":"平安金 投资金 平安标准金条 10克 9999千足金","orderAmt":1,"gateArr":[{"displayUrl":"","gateId":"002000","gateType":2,"gateBigType":"","gateName":"快钱支付网关wap"},{"displayUrl":"","gateId":"000300","gateType":2,"gateBigType":"","gateName":"支付宝wap"},{"displayUrl":"","gateId":"002002","gateType":2,"gateBigType":"","gateName":"壹钱包收银台wap"},{"displayUrl":"","gateId":"002003","gateType":2,"gateBigType":"","gateName":"平安银行储蓄卡"}]},"statusCode":"9999"},"callBack":"jsonp_pay","head":{"custString":"wlt_app_h5","msgVersion":"1.1","reqAppId":"ios","reqTime":"1433497837547","rspCode":"0","rspDescription":"安全验证通过","rspTime":"1433499301970"}})
- */
+
 
 
 </pre>
